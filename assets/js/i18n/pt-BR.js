@@ -1,0 +1,83 @@
+// Português (Brasil) – app de feira ZOLLER (os nomes dos produtos nunca são traduzidos, sempre entre »…«)
+export default {
+  'ui.back': 'Voltar', 'ui.saved': 'Minha lista', 'ui.end': 'Encerrar',
+  'idle.h': 'Você ainda está aí?', 'idle.p': 'O app vai reiniciar em instantes e apagar sua seleção.', 'idle.stay': 'Sim, continuar', 'idle.end': 'Reiniciar',
+  'live.short': '{name} ao vivo no estande', 'live.tag': 'No estande', 'live.p': 'Este equipamento está aqui no nosso estande – peça uma demonstração.',
+  'tag.film': 'Vídeo', 'tag.saved': 'Salvo',
+
+  'home.h1': 'Bem-vindo à ZOLLER.',
+  'home.lead': 'Todo o ciclo da ferramenta em um só fornecedor – do almoxarifado até a máquina. Toque em um equipamento.',
+  'home.films': 'Assistir vídeos', 'home.films.s': '{n} vídeos, com legendas',
+  'home.calc': 'Calcular a economia', 'home.calc.s': 'Quanto valem ferramentas pré-ajustadas',
+  'home.planer': 'Planejar a sala de ferramentas', 'home.planer.s': 'Sua produção em 3D, com o ganho',
+  'home.contact': 'Contato e materiais', 'home.contact.s': 'No seu celular ou aqui',
+
+  'claim.keeper': 'Tudo em seu lugar.', 'claim.toolorganizer': 'Peças pequenas, encontradas na hora.', 'claim.toolstation': 'Montagem com método.',
+  'claim.powershrink400': 'Calor, com precisão.', 'claim.titanium': 'Segura o que fixa.', 'claim.toolbalancer': 'Calma no fuso.',
+  'claim.redomatic600': 'Comprimento em que você pode confiar.', 'claim.venturion': 'Precisão que se vê.', 'claim.smile': 'Medir que compensa.',
+  'claim.zidcode': 'Cada dígito em seu lugar.',
+  'prod.titanium': '»titanium«', 'role.titanium': 'Porta-ferramentas de contração HPC com proteção contra arrancamento',
+
+  'spec.drawers': 'gavetas verticais', 'spec.load': 'carga por gaveta vertical', 'spec.heat': 'tempo de aquecimento', 'spec.cool': 'tempo de resfriamento',
+  'spec.len': 'comprimento máx. da ferramenta', 'spec.dia': 'diâmetro máx. da ferramenta', 'spec.shank': 'diâmetro da haste até', 'spec.balance': 'qualidade de balanceamento',
+  'spec.acc': 'precisão de comprimento', 'spec.cycle': 'contrair, resfriar e medir', 'spec.energy': 'menos energia (até)',
+  'spec.setup': 'tempo de setup em um cliente', 'spec.life': 'vida útil da ferramenta em um cliente', 'spec.entry': 'tempo na entrada de dados', 'spec.typos': 'erros de digitação',
+
+  'dev.photo': 'Foto', 'dev.film': 'Vídeo', 'dev.hint': 'Gire com um dedo, dê zoom com dois', 'dev.source': 'Fonte',
+  'dev.watch': 'Assistir ao vídeo', 'dev.save': 'Salvar', 'dev.saved': 'Salvo', 'dev.saved.toast': 'Salvo – no final você leva sua lista no celular.',
+  'dev.ar': 'Ver em RA', 'dev.ar.fail': 'A realidade aumentada não está disponível neste dispositivo.', 'dev.mobile': 'Para o meu celular',
+  'dev.prev': 'Equipamento anterior', 'dev.next': 'Próximo equipamento',
+
+  'films.kicker': 'Vídeos ZOLLER', 'films.h': 'Vídeos', 'films.p': 'Cada vídeo mostra um equipamento em ação – com som e legendas no seu idioma.',
+  'films.seen': 'Assistido', 'films.subs': 'Legendas',
+  'film.before-after': 'A mesma manhã', 'film.venturion': 'Um mícron.', 'film.keeper': 'Tudo em seu lugar.', 'film.powershrink400': 'Calor, com precisão.',
+  'film.redomatic600': 'Quatro fusos. Um só comprimento.', 'film.zidcode': 'Cada dígito em seu lugar.', 'film.titanium': 'Segura o que fixa.',
+  'film.smile': 'Keep it green.', 'film.toolorganizer': 'Peças pequenas, encontradas na hora.', 'film.toolstation': 'Montagem com método.',
+  'player.again': 'Assistir de novo', 'player.more': 'Mais sobre {name}', 'player.next': 'Próximo: {title}',
+
+  'calc.kicker': 'Calculadora de economia', 'calc.h': 'Quanto ferramentas pré-ajustadas valem para a sua empresa?',
+  'calc.p': 'Três informações bastam. Os números vêm da calculadora de rentabilidade da ZOLLER.',
+  'calc.machines': 'Máquinas CNC', 'calc.shifts': 'Turnos por dia', 'calc.days': 'Dias úteis por ano',
+  'calc.rate': 'Custo-hora da máquina', 'calc.rate.s': 'Quanto custa uma hora de fuso',
+  'calc.save': 'Economia por ano, no mínimo', 'calc.hours': 'horas de fuso parado por ano por ferramentas que chegam sem pré-ajuste ou mal pré-ajustadas',
+  'calc.cost': 'é o custo dessa parada a {rate} por hora', 'calc.note': 'Valores de referência com 8 horas por turno. O planejador calcula seus números exatos.',
+  'calc.planer': 'Planejar em detalhe', 'calc.keep': 'Resultado no celular',
+
+  'planer.h': 'Planejador da sala de ferramentas', 'planer.taken': 'Seu planejamento está na sua lista.',
+
+  'qr.h': 'Sua pasta da feira no celular', 'qr.p': 'Escaneie o código com a câmera: seus equipamentos salvos, vídeos, dados e um formulário de contato – no seu celular.',
+  'qr.note': 'Sem app, sem cadastro. Seus dados ficam com você até você nos escrever.',
+  'qr.link.h': 'Abrir no celular', 'qr.link.p': 'Esta página abre no seu celular – é só escanear o código.',
+
+  'contact.kicker': 'Contato', 'contact.h': 'Vamos manter contato', 'contact.p': 'Leve sua seleção no celular ou deixe seus dados – entraremos em contato.',
+  'contact.saved': 'Sua lista', 'contact.empty': 'Nada salvo ainda. Toque em “Salvar” em um equipamento.',
+  'contact.calc': 'Calculadora de economia: pelo menos {v} por ano', 'contact.plan': 'Seu planejamento da sala de ferramentas',
+  'form.h': 'Deixe seus dados', 'form.p': 'Entraremos em contato com uma proposta, uma visita ou materiais – como você preferir.',
+  'form.first': 'Nome', 'form.last': 'Sobrenome', 'form.company': 'Empresa', 'form.email': 'E-mail', 'form.phone': 'Telefone',
+  'form.country': 'País', 'form.country.pick': 'Selecione', 'form.country.other': 'Outro país',
+  'form.wants': 'Tenho interesse em', 'form.msg': 'Mensagem (opcional)',
+  'form.consent': 'Concordo que a {company} armazene meus dados para entrar em contato comigo. Posso revogar o consentimento a qualquer momento.',
+  'form.required': '* Campo obrigatório. Informe um e-mail ou um telefone.', 'form.send': 'Enviar',
+  'form.err': 'Preencha os campos marcados e confirme o consentimento.', 'form.err.reach': 'Informe um e-mail ou um número de telefone.',
+  'want.offer': 'uma proposta', 'want.demo': 'uma demonstração', 'want.call': 'um retorno por telefone', 'want.docs': 'materiais por e-mail', 'want.visit': 'uma visita na empresa',
+
+  'thanks.h': 'Obrigado, {name}!', 'thanks.p': 'Recebemos sua solicitação. Entraremos em contato.',
+  'thanks.mobile': 'Pasta da feira no celular', 'thanks.done': 'Pronto', 'thanks.auto': 'Reinício em {n} s',
+
+  'lang.h': 'Escolher idioma',
+  'end.h': 'Encerrar a visita?', 'end.p': 'O app reinicia para o próximo visitante.',
+  'end.p.saved': 'Sua lista será apagada. Leve-a antes no celular.',
+  'end.qr': 'Lista no celular', 'end.yes': 'Encerrar', 'end.no': 'Cancelar',
+
+  'm.title': 'Sua pasta da feira ZOLLER', 'm.hello': 'Obrigado pela visita.', 'm.visit': 'Visite-nos: {where}',
+  'm.devices': 'Seus equipamentos', 'm.facts': 'Fatos e fontes', 'm.films': 'Vídeos', 'm.calc': 'Seu cálculo de economia', 'm.plan': 'Sua sala de ferramentas', 'm.plan.open': 'Abrir o planejamento',
+  'm.planer': 'Abrir o planejador', 'm.product': 'Página do produto', 'm.showroom': 'Showroom 3D', 'm.more': 'Todos os equipamentos',
+  'm.calc.line': '{machines} máquinas CNC · {shifts} turnos · {days} dias úteis · {rate}/h',
+  'm.contact': 'Fale conosco', 'm.contact.p': 'Escreva para nós – entraremos em contato com uma proposta, uma visita ou materiais.',
+  'm.send': 'Enviar solicitação', 'm.sent': 'Obrigado! Recebemos sua solicitação.', 'm.mail': 'Seu app de e-mail abre com a solicitação pronta – é só enviar.',
+  'm.fail': 'Não foi possível enviar – vamos abrir seu app de e-mail.',
+  'm.share': 'Compartilhar', 'm.save': 'Esta página continua disponível: salve nos favoritos ou compartilhe.',
+  'm.country': 'Seu país', 'm.privacy': 'Privacidade', 'm.imprint': 'Informações legais', 'm.company': 'Seu contato',
+  'm.subject': 'Solicitação da feira', 'm.body.intro': 'Olá,', 'm.body.interest': 'Tenho interesse em', 'm.body.wants': 'Gostaria de',
+  'm.body.event': 'Feira', 'm.body.calc': 'Calculadora de economia', 'm.body.plan': 'Meu planejamento da sala de ferramentas', 'm.body.bye': 'Atenciosamente',
+};

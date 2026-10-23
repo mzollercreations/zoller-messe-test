@@ -1,0 +1,83 @@
+// 日本語 – ZOLLER 展示会アプリ（製品名は翻訳せず、常に »…« で表記）
+export default {
+  'ui.back': '戻る', 'ui.saved': 'マイリスト', 'ui.end': '終了',
+  'idle.h': 'まだご覧になっていますか？', 'idle.p': 'まもなくアプリが再起動し、選択内容が消去されます。', 'idle.stay': 'はい、続ける', 'idle.end': '再起動',
+  'live.short': '{name} をブースで実演中', 'live.tag': 'ブースで実演', 'live.p': 'この装置は当ブースに展示しています。実演をご希望の方はお声がけください。',
+  'tag.film': '動画', 'tag.saved': '保存済み',
+
+  'home.h1': 'ZOLLERへようこそ。',
+  'home.lead': '工具サイクルのすべてを一社で。保管から機械まで。装置をタップしてください。',
+  'home.films': '動画を見る', 'home.films.s': '{n}本の動画、字幕付き',
+  'home.calc': '削減効果を計算', 'home.calc.s': 'プリセット工具の効果',
+  'home.planer': 'ツールルームを計画', 'home.planer.s': 'お客様の生産を3Dで、効果とともに',
+  'home.contact': 'お問い合わせ・資料', 'home.contact.s': 'スマートフォンへ、またはここで入力',
+
+  'claim.keeper': 'すべてをあるべき場所に。', 'claim.toolorganizer': '小物部品も、すぐに見つかる。', 'claim.toolstation': '組立を、システムで。',
+  'claim.powershrink400': '熱を、正確に。', 'claim.titanium': 'つかんだら、離さない。', 'claim.toolbalancer': '主軸に静けさを。',
+  'claim.redomatic600': '信頼できる長さ。', 'claim.venturion': '目に見える精度。', 'claim.smile': '成果につながる測定。',
+  'claim.zidcode': 'すべての数字を、あるべき場所に。',
+  'prod.titanium': '»titanium«', 'role.titanium': '抜け防止機構付きHPC焼きばめホルダ',
+
+  'spec.drawers': '縦型引き出し', 'spec.load': '縦型引き出し1段あたりの積載量', 'spec.heat': '加熱時間', 'spec.cool': '冷却時間',
+  'spec.len': '最大工具長', 'spec.dia': '最大工具径', 'spec.shank': 'シャンク径（最大）', 'spec.balance': 'バランス精度',
+  'spec.acc': '長さ精度', 'spec.cycle': '焼きばめ・冷却・測定', 'spec.energy': 'エネルギー削減（最大）',
+  'spec.setup': 'ユーザー事例の段取り時間', 'spec.life': 'ユーザー事例の工具寿命', 'spec.entry': 'データ入力時間', 'spec.typos': '入力ミス',
+
+  'dev.photo': '写真', 'dev.film': '動画', 'dev.hint': '1本指で回転、2本指でズーム', 'dev.source': '出典',
+  'dev.watch': '動画を見る', 'dev.save': '保存', 'dev.saved': '保存済み', 'dev.saved.toast': '保存しました。最後にリストをスマートフォンへお持ち帰りいただけます。',
+  'dev.ar': 'ARで見る', 'dev.ar.fail': 'このデバイスではARを利用できません。', 'dev.mobile': 'スマートフォンへ',
+  'dev.prev': '前の装置', 'dev.next': '次の装置',
+
+  'films.kicker': 'ZOLLERの動画', 'films.h': '動画', 'films.p': '各動画で装置の動きをご覧いただけます。音声付き、お客様の言語の字幕付きです。',
+  'films.seen': '視聴済み', 'films.subs': '字幕',
+  'film.before-after': '同じ朝', 'film.venturion': '1ミクロン。', 'film.keeper': 'すべてをあるべき場所に。', 'film.powershrink400': '熱を、正確に。',
+  'film.redomatic600': '4本の主軸。ひとつの長さ。', 'film.zidcode': 'すべての数字を、あるべき場所に。', 'film.titanium': 'つかんだら、離さない。',
+  'film.smile': 'Keep it green.', 'film.toolorganizer': '小物部品も、すぐに見つかる。', 'film.toolstation': '組立を、システムで。',
+  'player.again': 'もう一度見る', 'player.more': '{name} の詳細', 'player.next': '次へ：{title}',
+
+  'calc.kicker': '削減効果計算', 'calc.h': 'プリセット工具は御社に何をもたらすか？',
+  'calc.p': '入力は3項目だけ。数値はZOLLER経済性計算ツールに基づいています。',
+  'calc.machines': 'CNC機械', 'calc.shifts': '1日のシフト数', 'calc.days': '年間稼働日数',
+  'calc.rate': '機械の時間単価', 'calc.rate.s': '主軸1時間あたりのコスト',
+  'calc.save': '年間削減額（最低）', 'calc.hours': '時間：未プリセットまたは不適切なプリセットの工具による年間の主軸停止',
+  'calc.cost': '時間単価 {rate} で換算した停止コスト', 'calc.note': '1シフト8時間での目安です。正確な数値はツールルーム・プランナーで算出できます。',
+  'calc.planer': '詳しく計画する', 'calc.keep': '結果をスマートフォンへ',
+
+  'planer.h': 'ツールルーム・プランナー', 'planer.taken': '計画をリストに追加しました。',
+
+  'qr.h': '展示会資料をスマートフォンへ', 'qr.p': 'カメラでコードを読み取ってください。保存した装置、動画、データ、お問い合わせフォームがスマートフォンで見られます。',
+  'qr.note': 'アプリも登録も不要。お問い合わせいただくまで、データはお客様の手元にとどまります。',
+  'qr.link.h': 'スマートフォンで開く', 'qr.link.p': 'このページはスマートフォンで開きます。コードを読み取るだけです。',
+
+  'contact.kicker': 'お問い合わせ', 'contact.h': 'これからもよろしくお願いします', 'contact.p': '選んだ内容をスマートフォンへお持ち帰りいただくか、ご連絡先をお残しください。担当者よりご連絡します。',
+  'contact.saved': 'マイリスト', 'contact.empty': 'まだ保存されていません。装置の画面で「保存」をタップしてください。',
+  'contact.calc': '削減効果計算：年間 {v} 以上', 'contact.plan': 'ツールルームの計画',
+  'form.h': 'ご連絡先の入力', 'form.p': 'お見積り、ご訪問のご相談、資料など、ご希望に合わせてご連絡します。',
+  'form.first': '名', 'form.last': '姓', 'form.company': '会社名', 'form.email': 'メールアドレス', 'form.phone': '電話番号',
+  'form.country': '国', 'form.country.pick': '選択してください', 'form.country.other': 'その他の国',
+  'form.wants': 'ご希望', 'form.msg': 'メッセージ（任意）',
+  'form.consent': '{company} が連絡のために私の情報を保存することに同意します。同意はいつでも撤回できます。',
+  'form.required': '* 必須項目。メールアドレスまたは電話番号をご入力ください。', 'form.send': '送信',
+  'form.err': '印の付いた項目を入力し、同意にチェックしてください。', 'form.err.reach': 'メールアドレスまたは電話番号をご入力ください。',
+  'want.offer': 'お見積り', 'want.demo': '実演', 'want.call': '折り返しのお電話', 'want.docs': 'メールでの資料送付', 'want.visit': '訪問でのご相談',
+
+  'thanks.h': '{name} 様、ありがとうございます！', 'thanks.p': 'お問い合わせを受け付けました。担当者よりご連絡いたします。',
+  'thanks.mobile': '展示会資料をスマートフォンへ', 'thanks.done': '完了', 'thanks.auto': '{n} 秒後に再起動',
+
+  'lang.h': '言語を選択',
+  'end.h': 'ご覧いただきありがとうございました。終了しますか？', 'end.p': '次のお客様のためにアプリを再起動します。',
+  'end.p.saved': 'マイリストは消去されます。先にスマートフォンへお持ち帰りください。',
+  'end.qr': 'リストをスマートフォンへ', 'end.yes': '終了', 'end.no': 'キャンセル',
+
+  'm.title': 'ZOLLER展示会資料', 'm.hello': 'ご来場ありがとうございました。', 'm.visit': 'ブースへお越しください：{where}',
+  'm.devices': '保存した装置', 'm.facts': '事実と出典', 'm.films': '動画', 'm.calc': '削減効果の計算', 'm.plan': 'ツールルーム', 'm.plan.open': '計画を開く',
+  'm.planer': 'ツールルーム・プランナーを開く', 'm.product': '製品ページ', 'm.showroom': '3D ショールーム', 'm.more': 'すべての装置',
+  'm.calc.line': 'CNC機械 {machines} 台 · {shifts} シフト · 稼働 {days} 日 · {rate}/時間',
+  'm.contact': 'お問い合わせ', 'm.contact.p': 'ご連絡ください。お見積り、ご訪問のご相談、資料などでお応えします。',
+  'm.send': '送信する', 'm.sent': 'ありがとうございます。お問い合わせを受け付けました。', 'm.mail': 'メールアプリが開き、お問い合わせ内容が入力済みです。送信するだけです。',
+  'm.fail': '送信できませんでした。メールアプリを開きます。',
+  'm.share': '共有', 'm.save': 'このページはいつでも開けます。ブックマークや共有をご利用ください。',
+  'm.country': 'お客様の国', 'm.privacy': 'プライバシー', 'm.imprint': 'サイト運営者情報', 'm.company': '担当窓口',
+  'm.subject': '展示会でのお問い合わせ', 'm.body.intro': 'お世話になっております。', 'm.body.interest': '関心のある製品', 'm.body.wants': '希望',
+  'm.body.event': '展示会', 'm.body.calc': '削減効果計算', 'm.body.plan': 'ツールルームの計画', 'm.body.bye': 'よろしくお願いいたします。',
+};

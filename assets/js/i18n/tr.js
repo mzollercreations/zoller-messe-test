@@ -1,0 +1,83 @@
+// Türkçe – ZOLLER fuar uygulaması (ürün adları asla çevrilmez, her zaman »…« içinde; ekler kesme işaretiyle)
+export default {
+  'ui.back': 'Geri', 'ui.saved': 'Listem', 'ui.end': 'Bitir',
+  'idle.h': 'Hâlâ orada mısınız?', 'idle.p': 'Uygulama birazdan yeniden başlayacak ve seçiminizi silecek.', 'idle.stay': 'Evet, devam', 'idle.end': 'Yeniden başlat',
+  'live.short': '{name} standda canlı', 'live.tag': 'Standda', 'live.p': 'Bu cihaz burada, standımızda – bizden bir tanıtım isteyin.',
+  'tag.film': 'Video', 'tag.saved': 'Kaydedildi',
+
+  'home.h1': 'ZOLLER’e hoş geldiniz.',
+  'home.lead': 'Takım döngüsünün tamamı tek elden – depodan makineye kadar. Bir cihaza dokunun.',
+  'home.films': 'Videoları izle', 'home.films.s': '{n} video, altyazılı',
+  'home.calc': 'Tasarrufu hesapla', 'home.calc.s': 'Ön ayarlı takımlar ne kazandırır',
+  'home.planer': 'Takım odasını planla', 'home.planer.s': 'Üretiminiz 3D olarak, kazancıyla',
+  'home.contact': 'İletişim ve dokümanlar', 'home.contact.s': 'Telefonunuza ya da burada',
+
+  'claim.keeper': 'Her şey yerli yerinde.', 'claim.toolorganizer': 'Küçük parçalar, anında bulunur.', 'claim.toolstation': 'Sistemli montaj.',
+  'claim.powershrink400': 'Isı, hassasiyetle.', 'claim.titanium': 'Bağladığını sıkı tutar.', 'claim.toolbalancer': 'İş milinde sükunet.',
+  'claim.redomatic600': 'Güvenebileceğiniz boy.', 'claim.venturion': 'Görebileceğiniz hassasiyet.', 'claim.smile': 'Kazandıran ölçüm.',
+  'claim.zidcode': 'Her rakam yerli yerinde.',
+  'prod.titanium': '»titanium«', 'role.titanium': 'Çekilme emniyetli HPC shrink tutucu',
+
+  'spec.drawers': 'dikey çekmece', 'spec.load': 'dikey çekmece başına taşıma kapasitesi', 'spec.heat': 'ısıtma süresi', 'spec.cool': 'soğutma süresi',
+  'spec.len': 'maks. takım boyu', 'spec.dia': 'maks. takım çapı', 'spec.shank': 'sap çapı en fazla', 'spec.balance': 'balans kalitesi',
+  'spec.acc': 'boy hassasiyeti', 'spec.cycle': 'shrink, soğutma ve ölçüm', 'spec.energy': 'daha az enerji (en fazla)',
+  'spec.setup': 'bir kullanıcıda ayar süresi', 'spec.life': 'bir kullanıcıda takım ömrü', 'spec.entry': 'veri girişinde süre', 'spec.typos': 'yazım hatası',
+
+  'dev.photo': 'Fotoğraf', 'dev.film': 'Video', 'dev.hint': 'Tek parmakla döndürün, iki parmakla yakınlaştırın', 'dev.source': 'Kaynak',
+  'dev.watch': 'Videoyu izle', 'dev.save': 'Kaydet', 'dev.saved': 'Kaydedildi', 'dev.saved.toast': 'Kaydedildi – sonunda listenizi telefonunuza alabilirsiniz.',
+  'dev.ar': 'AR’de görüntüle', 'dev.ar.fail': 'Bu cihazda AR kullanılamıyor.', 'dev.mobile': 'Telefonuma',
+  'dev.prev': 'Önceki cihaz', 'dev.next': 'Sonraki cihaz',
+
+  'films.kicker': 'ZOLLER videoları', 'films.h': 'Videolar', 'films.p': 'Her video bir cihazı çalışırken gösterir – sesli ve sizin dilinizde altyazılı.',
+  'films.seen': 'İzlendi', 'films.subs': 'Altyazı',
+  'film.before-after': 'Aynı sabah', 'film.venturion': 'Bir mikron.', 'film.keeper': 'Her şey yerli yerinde.', 'film.powershrink400': 'Isı, hassasiyetle.',
+  'film.redomatic600': 'Dört iş mili. Tek boy.', 'film.zidcode': 'Her rakam yerli yerinde.', 'film.titanium': 'Bağladığını sıkı tutar.',
+  'film.smile': 'Keep it green.', 'film.toolorganizer': 'Küçük parçalar, anında bulunur.', 'film.toolstation': 'Sistemli montaj.',
+  'player.again': 'Tekrar izle', 'player.more': '{name} hakkında daha fazla', 'player.next': 'Sıradaki: {title}',
+
+  'calc.kicker': 'Tasarruf hesaplayıcı', 'calc.h': 'Ön ayarlı takımlar işletmenize ne kazandırır?',
+  'calc.p': 'Üç bilgi yeterli. Rakamlar ZOLLER verimlilik hesaplayıcısından alınmıştır.',
+  'calc.machines': 'CNC makineleri', 'calc.shifts': 'Günlük vardiya', 'calc.days': 'Yıllık iş günü',
+  'calc.rate': 'Makine saat ücreti', 'calc.rate.s': 'Bir saatlik iş mili süresinin maliyeti',
+  'calc.save': 'Yıllık tasarruf, en az', 'calc.hours': 'saat yıllık iş mili duruşu – makineye ön ayarsız veya kötü ayarlı gelen takımlar yüzünden',
+  'calc.cost': 'saatte {rate} ile bu duruşun maliyeti', 'calc.note': 'Vardiya başına 8 saatle yaklaşık değerler. Kesin rakamları takım odası planlayıcı hesaplar.',
+  'calc.planer': 'Ayrıntılı planla', 'calc.keep': 'Sonuç telefonuma',
+
+  'planer.h': 'Takım odası planlayıcı', 'planer.taken': 'Planınız listenizde.',
+
+  'qr.h': 'Fuar dosyanız telefonunuzda', 'qr.p': 'Kodu kameranızla tarayın: kaydettiğiniz cihazlar, videolar, veriler ve bir iletişim formu – telefonunuzda.',
+  'qr.note': 'Uygulama yok, kayıt yok. Bize yazana kadar verileriniz sizde kalır.',
+  'qr.link.h': 'Telefonda aç', 'qr.link.p': 'Bu sayfa telefonunuzda açılır – kodu taramanız yeterli.',
+
+  'contact.kicker': 'İletişim', 'contact.h': 'İletişimde kalalım', 'contact.p': 'Seçiminizi telefonunuza alın ya da bilgilerinizi bırakın – size dönüş yapacağız.',
+  'contact.saved': 'Listeniz', 'contact.empty': 'Henüz kaydedilen bir şey yok. Bir cihazda “Kaydet”e dokunun.',
+  'contact.calc': 'Tasarruf hesaplayıcı: yılda en az {v}', 'contact.plan': 'Takım odası planınız',
+  'form.h': 'Bilgilerinizi bırakın', 'form.p': 'Size teklif, randevu veya dokümanlarla dönüş yapacağız – nasıl isterseniz.',
+  'form.first': 'Ad', 'form.last': 'Soyad', 'form.company': 'Firma', 'form.email': 'E-posta', 'form.phone': 'Telefon',
+  'form.country': 'Ülke', 'form.country.pick': 'Lütfen seçin', 'form.country.other': 'Başka bir ülke',
+  'form.wants': 'İlgilendiğim konu', 'form.msg': 'Mesaj (isteğe bağlı)',
+  'form.consent': '{company} firmasının benimle iletişime geçmek için bilgilerimi saklamasını kabul ediyorum. Onayımı istediğim zaman geri alabilirim.',
+  'form.required': '* Zorunlu alan. Lütfen e-posta veya telefon girin.', 'form.send': 'Gönder',
+  'form.err': 'Lütfen işaretli alanları doldurun ve onayınızı verin.', 'form.err.reach': 'Lütfen bir e-posta adresi veya telefon numarası girin.',
+  'want.offer': 'teklif', 'want.demo': 'tanıtım', 'want.call': 'geri arama', 'want.docs': 'e-postayla doküman', 'want.visit': 'yerinde ziyaret',
+
+  'thanks.h': 'Teşekkürler, {name}!', 'thanks.p': 'Talebiniz bize ulaştı. Size dönüş yapacağız.',
+  'thanks.mobile': 'Fuar dosyası telefonuma', 'thanks.done': 'Tamam', 'thanks.auto': '{n} sn içinde yeniden başlıyor',
+
+  'lang.h': 'Dil seçin',
+  'end.h': 'Ziyaretinizi bitirmek istiyor musunuz?', 'end.p': 'Uygulama bir sonraki ziyaretçi için yeniden başlar.',
+  'end.p.saved': 'Listeniz silinecek. Önce telefonunuza alın.',
+  'end.qr': 'Liste telefonuma', 'end.yes': 'Bitir', 'end.no': 'İptal',
+
+  'm.title': 'ZOLLER fuar dosyanız', 'm.hello': 'Ziyaretiniz için teşekkürler.', 'm.visit': 'Bizi ziyaret edin: {where}',
+  'm.devices': 'Cihazlarınız', 'm.facts': 'Bilgiler ve kaynaklar', 'm.films': 'Videolar', 'm.calc': 'Tasarruf hesabınız', 'm.plan': 'Takım odanız', 'm.plan.open': 'Planı aç',
+  'm.planer': 'Takım odası planlayıcıyı aç', 'm.product': 'Ürün sayfası', 'm.showroom': '3D showroom', 'm.more': 'Tüm cihazlar',
+  'm.calc.line': '{machines} CNC makinesi · {shifts} vardiya · {days} iş günü · {rate}/saat',
+  'm.contact': 'Bize ulaşın', 'm.contact.p': 'Bize yazın – size teklif, randevu veya dokümanlarla dönüş yapalım.',
+  'm.send': 'Talebi gönder', 'm.sent': 'Teşekkürler! Talebiniz bize ulaştı.', 'm.mail': 'E-posta uygulamanız hazır talep ile açılıyor – yalnızca göndermeniz yeterli.',
+  'm.fail': 'Gönderilemedi – e-posta uygulamanızı açıyoruz.',
+  'm.share': 'Paylaş', 'm.save': 'Bu sayfa erişilebilir kalır: yer imlerine ekleyin veya paylaşın.',
+  'm.country': 'Ülkeniz', 'm.privacy': 'Veri koruma', 'm.imprint': 'Künye', 'm.company': 'İrtibat kişiniz',
+  'm.subject': 'Fuar talebi', 'm.body.intro': 'Merhaba,', 'm.body.interest': 'İlgilendiğim ürünler', 'm.body.wants': 'İsteğim',
+  'm.body.event': 'Fuar', 'm.body.calc': 'Tasarruf hesaplayıcı', 'm.body.plan': 'Takım odası planım', 'm.body.bye': 'Saygılarımla',
+};

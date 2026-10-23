@@ -1,0 +1,83 @@
+// Français – application salon ZOLLER (noms de produits jamais traduits, toujours entre »…«)
+export default {
+  'ui.back': 'Retour', 'ui.saved': 'Ma liste', 'ui.end': 'Terminer',
+  'idle.h': 'Êtes-vous toujours là ?', 'idle.p': 'L’application va redémarrer et effacer votre sélection.', 'idle.stay': 'Oui, continuer', 'idle.end': 'Redémarrer',
+  'live.short': '{name} en direct sur le stand', 'live.tag': 'Sur le stand', 'live.p': 'Cet appareil est ici, sur notre stand – demandez-nous une démonstration.',
+  'tag.film': 'Film', 'tag.saved': 'Enregistré',
+
+  'home.h1': 'Bienvenue chez ZOLLER.',
+  'home.lead': 'Tout le cycle de l’outil d’un seul fournisseur – du stockage jusqu’à la machine. Touchez un appareil.',
+  'home.films': 'Voir les films', 'home.films.s': '{n} films, sous-titrés',
+  'home.calc': 'Calculer les économies', 'home.calc.s': 'Ce que rapportent les outils préréglés',
+  'home.planer': 'Planifier l’outillage', 'home.planer.s': 'Votre production en 3D, avec le gain',
+  'home.contact': 'Contact et documents', 'home.contact.s': 'Sur votre smartphone ou ici',
+
+  'claim.keeper': 'Tout à sa place.', 'claim.toolorganizer': 'Les petites pièces, trouvées aussitôt.', 'claim.toolstation': 'Le montage, avec méthode.',
+  'claim.powershrink400': 'La chaleur, avec précision.', 'claim.titanium': 'Il tient ce qu’il serre.', 'claim.toolbalancer': 'Le calme dans la broche.',
+  'claim.redomatic600': 'Une longueur fiable.', 'claim.venturion': 'La précision visible.', 'claim.smile': 'Une mesure qui rapporte.',
+  'claim.zidcode': 'Chaque chiffre à sa place.',
+  'prod.titanium': '»titanium«', 'role.titanium': 'Mandrin de frettage HPC avec sécurité anti-extraction',
+
+  'spec.drawers': 'tiroirs verticaux', 'spec.load': 'charge par tiroir vertical', 'spec.heat': 'temps de chauffe', 'spec.cool': 'temps de refroidissement',
+  'spec.len': 'longueur d’outil max.', 'spec.dia': 'diamètre d’outil max.', 'spec.shank': 'diamètre de queue jusqu’à', 'spec.balance': 'qualité d’équilibrage',
+  'spec.acc': 'précision de longueur', 'spec.cycle': 'fretter, refroidir et mesurer', 'spec.energy': 'd’énergie en moins (jusqu’à)',
+  'spec.setup': 'temps de réglage chez un utilisateur', 'spec.life': 'durée de vie d’outil chez un utilisateur', 'spec.entry': 'de temps pour la saisie des données', 'spec.typos': 'faute de frappe',
+
+  'dev.photo': 'Photo', 'dev.film': 'Film', 'dev.hint': 'Tourner avec un doigt, zoomer avec deux', 'dev.source': 'Source',
+  'dev.watch': 'Voir le film', 'dev.save': 'Enregistrer', 'dev.saved': 'Enregistré', 'dev.saved.toast': 'Enregistré – emportez votre liste sur votre smartphone à la fin.',
+  'dev.ar': 'Voir en RA', 'dev.ar.fail': 'La réalité augmentée n’est pas disponible sur cet appareil.', 'dev.mobile': 'Sur mon smartphone',
+  'dev.prev': 'Appareil précédent', 'dev.next': 'Appareil suivant',
+
+  'films.kicker': 'Films ZOLLER', 'films.h': 'Films', 'films.p': 'Chaque film montre un appareil en action – avec le son et des sous-titres dans votre langue.',
+  'films.seen': 'Vu', 'films.subs': 'Sous-titres',
+  'film.before-after': 'Le même matin', 'film.venturion': 'Un micron.', 'film.keeper': 'Tout à sa place.', 'film.powershrink400': 'La chaleur, avec précision.',
+  'film.redomatic600': 'Quatre broches. Une seule longueur.', 'film.zidcode': 'Chaque chiffre à sa place.', 'film.titanium': 'Il tient ce qu’il serre.',
+  'film.smile': 'Keep it green.', 'film.toolorganizer': 'Les petites pièces, trouvées aussitôt.', 'film.toolstation': 'Le montage, avec méthode.',
+  'player.again': 'Revoir', 'player.more': 'En savoir plus sur {name}', 'player.next': 'Suivant : {title}',
+
+  'calc.kicker': 'Calculateur d’économies', 'calc.h': 'Que rapportent des outils préréglés à votre atelier ?',
+  'calc.p': 'Trois données suffisent. Les chiffres proviennent du calculateur de rentabilité ZOLLER.',
+  'calc.machines': 'Machines CNC', 'calc.shifts': 'Équipes par jour', 'calc.days': 'Jours ouvrés par an',
+  'calc.rate': 'Taux horaire machine', 'calc.rate.s': 'Ce que coûte une heure de broche',
+  'calc.save': 'Économie par an, au moins', 'calc.hours': 'heures d’arrêt de broche par an dues à des outils non préréglés ou mal préréglés',
+  'calc.cost': 'c’est le coût de cet arrêt à {rate} de l’heure', 'calc.note': 'Valeurs indicatives pour 8 heures par équipe. Le planificateur d’outillage calcule vos chiffres exacts.',
+  'calc.planer': 'Planifier en détail', 'calc.keep': 'Résultat sur mon smartphone',
+
+  'planer.h': 'Planificateur d’outillage', 'planer.taken': 'Votre projet est dans votre liste.',
+
+  'qr.h': 'Votre dossier salon sur votre smartphone', 'qr.p': 'Scannez le code avec l’appareil photo : vos appareils enregistrés, les films, les données et un formulaire de contact – sur votre smartphone.',
+  'qr.note': 'Pas d’application, pas d’inscription. Vos données restent chez vous jusqu’à ce que vous nous écriviez.',
+  'qr.link.h': 'Ouvrir sur votre smartphone', 'qr.link.p': 'Cette page s’ouvre sur votre smartphone – il suffit de scanner le code.',
+
+  'contact.kicker': 'Contact', 'contact.h': 'Restons en contact', 'contact.p': 'Emportez votre sélection sur votre smartphone ou laissez-nous vos coordonnées – nous vous recontactons.',
+  'contact.saved': 'Votre liste', 'contact.empty': 'Rien d’enregistré pour l’instant. Touchez « Enregistrer » sur un appareil.',
+  'contact.calc': 'Calculateur d’économies : au moins {v} par an', 'contact.plan': 'Votre projet d’outillage',
+  'form.h': 'Laisser vos coordonnées', 'form.p': 'Nous revenons vers vous avec une offre, un rendez-vous ou des documents – comme vous le souhaitez.',
+  'form.first': 'Prénom', 'form.last': 'Nom', 'form.company': 'Entreprise', 'form.email': 'E-mail', 'form.phone': 'Téléphone',
+  'form.country': 'Pays', 'form.country.pick': 'Veuillez choisir', 'form.country.other': 'Autre pays',
+  'form.wants': 'Je souhaite', 'form.msg': 'Message (facultatif)',
+  'form.consent': 'J’accepte que {company} enregistre mes données afin de me contacter. Je peux retirer mon consentement à tout moment.',
+  'form.required': '* Champ obligatoire. Indiquez un e-mail ou un numéro de téléphone.', 'form.send': 'Envoyer',
+  'form.err': 'Veuillez remplir les champs marqués et confirmer votre consentement.', 'form.err.reach': 'Veuillez indiquer une adresse e-mail ou un numéro de téléphone.',
+  'want.offer': 'une offre', 'want.demo': 'une démonstration', 'want.call': 'être rappelé', 'want.docs': 'des documents par e-mail', 'want.visit': 'une visite sur site',
+
+  'thanks.h': 'Merci, {name} !', 'thanks.p': 'Votre demande nous est bien parvenue. Nous vous recontactons.',
+  'thanks.mobile': 'Dossier salon sur mon smartphone', 'thanks.done': 'Terminé', 'thanks.auto': 'Redémarrage dans {n} s',
+
+  'lang.h': 'Choisir la langue',
+  'end.h': 'Terminer votre visite ?', 'end.p': 'L’application redémarre pour le visiteur suivant.',
+  'end.p.saved': 'Votre liste sera effacée. Emportez-la d’abord sur votre smartphone.',
+  'end.qr': 'Liste sur mon smartphone', 'end.yes': 'Terminer', 'end.no': 'Annuler',
+
+  'm.title': 'Votre dossier salon ZOLLER', 'm.hello': 'Merci de votre visite.', 'm.visit': 'Rendez-nous visite : {where}',
+  'm.devices': 'Vos appareils', 'm.facts': 'Faits et sources', 'm.films': 'Films', 'm.calc': 'Votre calcul d’économies', 'm.plan': 'Votre outillage', 'm.plan.open': 'Ouvrir le projet',
+  'm.planer': 'Ouvrir le planificateur d’outillage', 'm.product': 'Page produit', 'm.showroom': 'Salle 3D', 'm.more': 'Tous les appareils',
+  'm.calc.line': '{machines} machines CNC · {shifts} équipes · {days} jours ouvrés · {rate}/h',
+  'm.contact': 'Nous contacter', 'm.contact.p': 'Écrivez-nous – nous revenons vers vous avec une offre, un rendez-vous ou des documents.',
+  'm.send': 'Envoyer la demande', 'm.sent': 'Merci ! Votre demande nous est parvenue.', 'm.mail': 'Votre messagerie s’ouvre avec la demande prête – il ne reste qu’à l’envoyer.',
+  'm.fail': 'L’envoi n’a pas fonctionné – nous ouvrons votre messagerie.',
+  'm.share': 'Partager', 'm.save': 'Cette page reste accessible : ajoutez-la à vos favoris ou partagez-la.',
+  'm.country': 'Votre pays', 'm.privacy': 'Protection des données', 'm.imprint': 'Mentions légales', 'm.company': 'Votre interlocuteur',
+  'm.subject': 'Demande salon', 'm.body.intro': 'Bonjour,', 'm.body.interest': 'Je m’intéresse à', 'm.body.wants': 'Je souhaite',
+  'm.body.event': 'Salon', 'm.body.calc': 'Calculateur d’économies', 'm.body.plan': 'Mon projet d’outillage', 'm.body.bye': 'Cordialement',
+};

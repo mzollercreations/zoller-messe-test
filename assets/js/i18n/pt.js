@@ -1,0 +1,83 @@
+// Português (Portugal) – app de feira ZOLLER (os nomes dos produtos nunca são traduzidos, sempre entre »…«)
+export default {
+  'ui.back': 'Voltar', 'ui.saved': 'A minha lista', 'ui.end': 'Terminar',
+  'idle.h': 'Ainda está aí?', 'idle.p': 'A app vai reiniciar e apagar a sua seleção.', 'idle.stay': 'Sim, continuar', 'idle.end': 'Reiniciar',
+  'live.short': '{name} ao vivo no stand', 'live.tag': 'No stand', 'live.p': 'Este equipamento está aqui no nosso stand – peça-nos uma demonstração.',
+  'tag.film': 'Vídeo', 'tag.saved': 'Guardado',
+
+  'home.h1': 'Bem-vindo à ZOLLER.',
+  'home.lead': 'Todo o ciclo da ferramenta num só fornecedor – do armazém até à máquina. Toque num equipamento.',
+  'home.films': 'Ver vídeos', 'home.films.s': '{n} vídeos, com legendas',
+  'home.calc': 'Calcular a poupança', 'home.calc.s': 'O que valem as ferramentas pré-ajustadas',
+  'home.planer': 'Planear a sala de ferramentas', 'home.planer.s': 'A sua produção em 3D, com o ganho',
+  'home.contact': 'Contacto e documentação', 'home.contact.s': 'No seu telemóvel ou aqui',
+
+  'claim.keeper': 'Tudo no seu lugar.', 'claim.toolorganizer': 'Peças pequenas, encontradas logo.', 'claim.toolstation': 'Montagem com método.',
+  'claim.powershrink400': 'Calor, com precisão.', 'claim.titanium': 'Segura o que aperta.', 'claim.toolbalancer': 'Calma na árvore.',
+  'claim.redomatic600': 'Um comprimento em que pode confiar.', 'claim.venturion': 'Precisão à vista.', 'claim.smile': 'Medir compensa.',
+  'claim.zidcode': 'Cada dígito no seu lugar.',
+  'prod.titanium': '»titanium«', 'role.titanium': 'Porta-ferramentas de contração HPC com proteção contra extração',
+
+  'spec.drawers': 'gavetas verticais', 'spec.load': 'carga por gaveta vertical', 'spec.heat': 'tempo de aquecimento', 'spec.cool': 'tempo de arrefecimento',
+  'spec.len': 'comprimento máx. da ferramenta', 'spec.dia': 'diâmetro máx. da ferramenta', 'spec.shank': 'diâmetro da haste até', 'spec.balance': 'qualidade de equilibragem',
+  'spec.acc': 'precisão de comprimento', 'spec.cycle': 'contrair, arrefecer e medir', 'spec.energy': 'menos energia (até)',
+  'spec.setup': 'tempo de preparação num cliente', 'spec.life': 'vida útil da ferramenta num cliente', 'spec.entry': 'tempo na introdução de dados', 'spec.typos': 'erros de digitação',
+
+  'dev.photo': 'Foto', 'dev.film': 'Vídeo', 'dev.hint': 'Rode com um dedo, faça zoom com dois', 'dev.source': 'Fonte',
+  'dev.watch': 'Ver o vídeo', 'dev.save': 'Guardar', 'dev.saved': 'Guardado', 'dev.saved.toast': 'Guardado – no fim pode levar a lista no telemóvel.',
+  'dev.ar': 'Ver em RA', 'dev.ar.fail': 'A realidade aumentada não está disponível neste dispositivo.', 'dev.mobile': 'Para o meu telemóvel',
+  'dev.prev': 'Equipamento anterior', 'dev.next': 'Equipamento seguinte',
+
+  'films.kicker': 'Vídeos ZOLLER', 'films.h': 'Vídeos', 'films.p': 'Cada vídeo mostra um equipamento em ação – com som e legendas na sua língua.',
+  'films.seen': 'Visto', 'films.subs': 'Legendas',
+  'film.before-after': 'A mesma manhã', 'film.venturion': 'Um mícron.', 'film.keeper': 'Tudo no seu lugar.', 'film.powershrink400': 'Calor, com precisão.',
+  'film.redomatic600': 'Quatro árvores. Um só comprimento.', 'film.zidcode': 'Cada dígito no seu lugar.', 'film.titanium': 'Segura o que aperta.',
+  'film.smile': 'Keep it green.', 'film.toolorganizer': 'Peças pequenas, encontradas logo.', 'film.toolstation': 'Montagem com método.',
+  'player.again': 'Ver de novo', 'player.more': 'Mais sobre {name}', 'player.next': 'A seguir: {title}',
+
+  'calc.kicker': 'Calculadora de poupança', 'calc.h': 'Quanto valem ferramentas pré-ajustadas para a sua empresa?',
+  'calc.p': 'Bastam três dados. Os números vêm da calculadora de rentabilidade da ZOLLER.',
+  'calc.machines': 'Máquinas CNC', 'calc.shifts': 'Turnos por dia', 'calc.days': 'Dias úteis por ano',
+  'calc.rate': 'Custo horário da máquina', 'calc.rate.s': 'Quanto custa uma hora de árvore',
+  'calc.save': 'Poupança por ano, no mínimo', 'calc.hours': 'horas de paragem da árvore por ano devido a ferramentas que chegam sem pré-ajuste ou mal pré-ajustadas',
+  'calc.cost': 'custa esta paragem a {rate} por hora', 'calc.note': 'Valores indicativos com 8 horas por turno. O planeador calcula os seus valores exatos.',
+  'calc.planer': 'Planear em detalhe', 'calc.keep': 'Resultado no telemóvel',
+
+  'planer.h': 'Planeador da sala de ferramentas', 'planer.taken': 'O seu planeamento está na sua lista.',
+
+  'qr.h': 'A sua pasta da feira no telemóvel', 'qr.p': 'Leia o código com a câmara: os equipamentos guardados, vídeos, dados e um formulário de contacto – no seu telemóvel.',
+  'qr.note': 'Sem app, sem registo. Os seus dados ficam consigo até nos escrever.',
+  'qr.link.h': 'Abrir no telemóvel', 'qr.link.p': 'Esta página abre-se no seu telemóvel – basta ler o código.',
+
+  'contact.kicker': 'Contacto', 'contact.h': 'Vamos manter o contacto', 'contact.p': 'Leve a sua seleção no telemóvel ou deixe-nos os seus dados – entraremos em contacto.',
+  'contact.saved': 'A sua lista', 'contact.empty': 'Ainda não guardou nada. Toque em «Guardar» num equipamento.',
+  'contact.calc': 'Calculadora de poupança: pelo menos {v} por ano', 'contact.plan': 'O seu planeamento da sala de ferramentas',
+  'form.h': 'Deixe os seus dados', 'form.p': 'Entraremos em contacto com uma proposta, uma reunião ou documentação – como preferir.',
+  'form.first': 'Nome', 'form.last': 'Apelido', 'form.company': 'Empresa', 'form.email': 'E-mail', 'form.phone': 'Telefone',
+  'form.country': 'País', 'form.country.pick': 'Selecione', 'form.country.other': 'Outro país',
+  'form.wants': 'Tenho interesse em', 'form.msg': 'Mensagem (opcional)',
+  'form.consent': 'Aceito que a {company} guarde os meus dados para me contactar. Posso retirar o consentimento a qualquer momento.',
+  'form.required': '* Campo obrigatório. Indique um e-mail ou um telefone.', 'form.send': 'Enviar',
+  'form.err': 'Preencha os campos assinalados e confirme o consentimento.', 'form.err.reach': 'Indique um endereço de e-mail ou um número de telefone.',
+  'want.offer': 'uma proposta', 'want.demo': 'uma demonstração', 'want.call': 'ser contactado', 'want.docs': 'documentação por e-mail', 'want.visit': 'uma visita às instalações',
+
+  'thanks.h': 'Obrigado, {name}!', 'thanks.p': 'Recebemos o seu pedido. Entraremos em contacto.',
+  'thanks.mobile': 'Pasta da feira no telemóvel', 'thanks.done': 'Concluído', 'thanks.auto': 'Reinício dentro de {n} s',
+
+  'lang.h': 'Escolher idioma',
+  'end.h': 'Terminar a visita?', 'end.p': 'A app reinicia para o próximo visitante.',
+  'end.p.saved': 'A sua lista será apagada. Leve-a primeiro no telemóvel.',
+  'end.qr': 'Lista no telemóvel', 'end.yes': 'Terminar', 'end.no': 'Cancelar',
+
+  'm.title': 'A sua pasta da feira ZOLLER', 'm.hello': 'Obrigado pela sua visita.', 'm.visit': 'Visite-nos: {where}',
+  'm.devices': 'Os seus equipamentos', 'm.facts': 'Factos e fontes', 'm.films': 'Vídeos', 'm.calc': 'O seu cálculo de poupança', 'm.plan': 'A sua sala de ferramentas', 'm.plan.open': 'Abrir o planeamento',
+  'm.planer': 'Abrir o planeador', 'm.product': 'Página do produto', 'm.showroom': 'Showroom 3D', 'm.more': 'Todos os equipamentos',
+  'm.calc.line': '{machines} máquinas CNC · {shifts} turnos · {days} dias úteis · {rate}/h',
+  'm.contact': 'Contacte-nos', 'm.contact.p': 'Escreva-nos – entraremos em contacto com uma proposta, uma reunião ou documentação.',
+  'm.send': 'Enviar pedido', 'm.sent': 'Obrigado! Recebemos o seu pedido.', 'm.mail': 'A sua app de e-mail abre com o pedido pronto – só tem de enviar.',
+  'm.fail': 'Não foi possível enviar – vamos abrir a sua app de e-mail.',
+  'm.share': 'Partilhar', 'm.save': 'Esta página continua disponível: guarde-a nos favoritos ou partilhe-a.',
+  'm.country': 'O seu país', 'm.privacy': 'Proteção de dados', 'm.imprint': 'Informação legal', 'm.company': 'O seu contacto',
+  'm.subject': 'Pedido da feira', 'm.body.intro': 'Bom dia,', 'm.body.interest': 'Tenho interesse em', 'm.body.wants': 'Gostaria de',
+  'm.body.event': 'Feira', 'm.body.calc': 'Calculadora de poupança', 'm.body.plan': 'O meu planeamento da sala de ferramentas', 'm.body.bye': 'Com os melhores cumprimentos',
+};

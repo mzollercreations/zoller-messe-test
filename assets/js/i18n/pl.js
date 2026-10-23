@@ -1,0 +1,83 @@
+// Polski – aplikacja targowa ZOLLER (nazw produktów nigdy nie tłumaczymy, zawsze w »…«)
+export default {
+  'ui.back': 'Wstecz', 'ui.saved': 'Moja lista', 'ui.end': 'Zakończ',
+  'idle.h': 'Czy nadal tu jesteś?', 'idle.p': 'Za chwilę aplikacja uruchomi się ponownie i usunie Twój wybór.', 'idle.stay': 'Tak, dalej', 'idle.end': 'Uruchom ponownie',
+  'live.short': '{name} na żywo na stoisku', 'live.tag': 'Na stoisku', 'live.p': 'To urządzenie stoi tutaj, na naszym stoisku – poproś nas o prezentację.',
+  'tag.film': 'Film', 'tag.saved': 'Zapisane',
+
+  'home.h1': 'Witamy w ZOLLER.',
+  'home.lead': 'Cały obieg narzędzi od jednego dostawcy – od magazynu aż do maszyny. Dotknij urządzenia.',
+  'home.films': 'Obejrzyj filmy', 'home.films.s': '{n} filmów z napisami',
+  'home.calc': 'Oblicz oszczędności', 'home.calc.s': 'Co dają nastawione narzędzia',
+  'home.planer': 'Zaplanuj narzędziownię', 'home.planer.s': 'Twoja produkcja w 3D, z zyskiem',
+  'home.contact': 'Kontakt i materiały', 'home.contact.s': 'Na telefon albo tutaj',
+
+  'claim.keeper': 'Wszystko na swoim miejscu.', 'claim.toolorganizer': 'Drobne elementy, od razu pod ręką.', 'claim.toolstation': 'Montaż z systemem.',
+  'claim.powershrink400': 'Ciepło, precyzyjnie.', 'claim.titanium': 'Trzyma, co mocuje.', 'claim.toolbalancer': 'Spokój we wrzecionie.',
+  'claim.redomatic600': 'Długość, na której można polegać.', 'claim.venturion': 'Precyzja, którą widać.', 'claim.smile': 'Pomiar, który się opłaca.',
+  'claim.zidcode': 'Każda cyfra na swoim miejscu.',
+  'prod.titanium': '»titanium«', 'role.titanium': 'Oprawka termokurczliwa HPC z zabezpieczeniem przed wysunięciem',
+
+  'spec.drawers': 'szuflad pionowych', 'spec.load': 'obciążenie na szufladę pionową', 'spec.heat': 'czas nagrzewania', 'spec.cool': 'czas chłodzenia',
+  'spec.len': 'maks. długość narzędzia', 'spec.dia': 'maks. średnica narzędzia', 'spec.shank': 'średnica chwytu do', 'spec.balance': 'jakość wyważenia',
+  'spec.acc': 'dokładność długości', 'spec.cycle': 'skurcz, chłodzenie i pomiar', 'spec.energy': 'mniej energii (do)',
+  'spec.setup': 'czasu przezbrojenia u klienta', 'spec.life': 'trwałość narzędzia u klienta', 'spec.entry': 'czasu wprowadzania danych', 'spec.typos': 'literówek',
+
+  'dev.photo': 'Zdjęcie', 'dev.film': 'Film', 'dev.hint': 'Obracaj jednym palcem, powiększaj dwoma', 'dev.source': 'Źródło',
+  'dev.watch': 'Obejrzyj film', 'dev.save': 'Zapisz', 'dev.saved': 'Zapisane', 'dev.saved.toast': 'Zapisane – na koniec możesz zabrać listę na telefon.',
+  'dev.ar': 'Zobacz w AR', 'dev.ar.fail': 'AR nie jest dostępna na tym urządzeniu.', 'dev.mobile': 'Na mój telefon',
+  'dev.prev': 'Poprzednie urządzenie', 'dev.next': 'Następne urządzenie',
+
+  'films.kicker': 'Filmy ZOLLER', 'films.h': 'Filmy', 'films.p': 'Każdy film pokazuje urządzenie w działaniu – z dźwiękiem i napisami w Twoim języku.',
+  'films.seen': 'Obejrzany', 'films.subs': 'Napisy',
+  'film.before-after': 'Ten sam poranek', 'film.venturion': 'Jeden mikrometr.', 'film.keeper': 'Wszystko na swoim miejscu.', 'film.powershrink400': 'Ciepło, precyzyjnie.',
+  'film.redomatic600': 'Cztery wrzeciona. Jedna długość.', 'film.zidcode': 'Każda cyfra na swoim miejscu.', 'film.titanium': 'Trzyma, co mocuje.',
+  'film.smile': 'Keep it green.', 'film.toolorganizer': 'Drobne elementy, od razu pod ręką.', 'film.toolstation': 'Montaż z systemem.',
+  'player.again': 'Obejrzyj ponownie', 'player.more': 'Więcej o {name}', 'player.next': 'Dalej: {title}',
+
+  'calc.kicker': 'Kalkulator oszczędności', 'calc.h': 'Co nastawione narzędzia dają Twojemu zakładowi?',
+  'calc.p': 'Wystarczą trzy dane. Liczby pochodzą z kalkulatora opłacalności ZOLLER.',
+  'calc.machines': 'Maszyny CNC', 'calc.shifts': 'Zmiany dziennie', 'calc.days': 'Dni robocze w roku',
+  'calc.rate': 'Stawka godzinowa maszyny', 'calc.rate.s': 'Ile kosztuje godzina pracy wrzeciona',
+  'calc.save': 'Oszczędność rocznie, co najmniej', 'calc.hours': 'godzin postoju wrzeciona rocznie przez narzędzia, które trafiają do maszyny nienastawione lub źle nastawione',
+  'calc.cost': 'kosztuje ten postój przy stawce {rate} za godzinę', 'calc.note': 'Wartości orientacyjne przy 8 godzinach na zmianę. Dokładne liczby obliczy planer narzędziowni.',
+  'calc.planer': 'Zaplanuj dokładnie', 'calc.keep': 'Wynik na telefon',
+
+  'planer.h': 'Planer narzędziowni', 'planer.taken': 'Twój plan jest na liście.',
+
+  'qr.h': 'Twoja teczka targowa na telefonie', 'qr.p': 'Zeskanuj kod aparatem: zapisane urządzenia, filmy, dane i formularz kontaktowy – na Twoim telefonie.',
+  'qr.note': 'Bez aplikacji, bez rejestracji. Twoje dane zostają u Ciebie, dopóki do nas nie napiszesz.',
+  'qr.link.h': 'Otwórz na telefonie', 'qr.link.p': 'Ta strona otworzy się na Twoim telefonie – wystarczy zeskanować kod.',
+
+  'contact.kicker': 'Kontakt', 'contact.h': 'Pozostańmy w kontakcie', 'contact.p': 'Zabierz swój wybór na telefon albo zostaw nam swoje dane – odezwiemy się.',
+  'contact.saved': 'Twoja lista', 'contact.empty': 'Nic jeszcze nie zapisano. Dotknij „Zapisz” przy urządzeniu.',
+  'contact.calc': 'Kalkulator oszczędności: co najmniej {v} rocznie', 'contact.plan': 'Twój plan narzędziowni',
+  'form.h': 'Zostaw swoje dane', 'form.p': 'Odezwiemy się z ofertą, terminem lub materiałami – jak wolisz.',
+  'form.first': 'Imię', 'form.last': 'Nazwisko', 'form.company': 'Firma', 'form.email': 'E-mail', 'form.phone': 'Telefon',
+  'form.country': 'Kraj', 'form.country.pick': 'Wybierz', 'form.country.other': 'Inny kraj',
+  'form.wants': 'Interesuje mnie', 'form.msg': 'Wiadomość (opcjonalnie)',
+  'form.consent': 'Wyrażam zgodę na przechowywanie moich danych przez {company} w celu kontaktu ze mną. Mogę w każdej chwili wycofać zgodę.',
+  'form.required': '* Pole obowiązkowe. Podaj e-mail lub telefon.', 'form.send': 'Wyślij',
+  'form.err': 'Uzupełnij zaznaczone pola i potwierdź zgodę.', 'form.err.reach': 'Podaj adres e-mail lub numer telefonu.',
+  'want.offer': 'oferta', 'want.demo': 'prezentacja', 'want.call': 'oddzwonienie', 'want.docs': 'materiały e-mailem', 'want.visit': 'wizyta w zakładzie',
+
+  'thanks.h': 'Dziękujemy, {name}!', 'thanks.p': 'Otrzymaliśmy Twoje zapytanie. Odezwiemy się.',
+  'thanks.mobile': 'Teczka targowa na telefon', 'thanks.done': 'Gotowe', 'thanks.auto': 'Restart za {n} s',
+
+  'lang.h': 'Wybierz język',
+  'end.h': 'Zakończyć wizytę?', 'end.p': 'Aplikacja uruchomi się ponownie dla następnego gościa.',
+  'end.p.saved': 'Twoja lista zostanie usunięta. Najpierw zabierz ją na telefon.',
+  'end.qr': 'Lista na telefon', 'end.yes': 'Zakończ', 'end.no': 'Anuluj',
+
+  'm.title': 'Twoja teczka targowa ZOLLER', 'm.hello': 'Dziękujemy za wizytę.', 'm.visit': 'Odwiedź nas: {where}',
+  'm.devices': 'Twoje urządzenia', 'm.facts': 'Fakty i źródła', 'm.films': 'Filmy', 'm.calc': 'Twoje obliczenie oszczędności', 'm.plan': 'Twoja narzędziownia', 'm.plan.open': 'Otwórz plan',
+  'm.planer': 'Otwórz planer narzędziowni', 'm.product': 'Strona produktu', 'm.showroom': 'Showroom 3D', 'm.more': 'Wszystkie urządzenia',
+  'm.calc.line': '{machines} maszyn CNC · {shifts} zmiany · {days} dni roboczych · {rate}/h',
+  'm.contact': 'Skontaktuj się z nami', 'm.contact.p': 'Napisz do nas – odezwiemy się z ofertą, terminem lub materiałami.',
+  'm.send': 'Wyślij zapytanie', 'm.sent': 'Dziękujemy! Twoje zapytanie dotarło.', 'm.mail': 'Otworzy się aplikacja pocztowa z gotowym zapytaniem – wystarczy wysłać.',
+  'm.fail': 'Wysyłanie nie powiodło się – otwieramy aplikację pocztową.',
+  'm.share': 'Udostępnij', 'm.save': 'Ta strona pozostaje dostępna: dodaj ją do zakładek lub udostępnij.',
+  'm.country': 'Twój kraj', 'm.privacy': 'Ochrona danych', 'm.imprint': 'Informacje prawne', 'm.company': 'Twój kontakt',
+  'm.subject': 'Zapytanie z targów', 'm.body.intro': 'Dzień dobry,', 'm.body.interest': 'Interesuje mnie', 'm.body.wants': 'Proszę o',
+  'm.body.event': 'Targi', 'm.body.calc': 'Kalkulator oszczędności', 'm.body.plan': 'Mój plan narzędziowni', 'm.body.bye': 'Z poważaniem',
+};

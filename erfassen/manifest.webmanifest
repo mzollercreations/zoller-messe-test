@@ -1,0 +1,15 @@
+{
+  "name": "ZOLLER Leads",
+  "short_name": "ZOLLER Leads",
+  "description": "Lead-Erfassung für das ZOLLER-Standpersonal: Badge scannen, Visitenkarte, Fragebogen – direkt nach HubSpot, auch ohne Netz.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f3f3f1",
+  "theme_color": "#26292d",
+  "icons": [
+    { "src": "../assets/img/leads-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "../assets/img/leads-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

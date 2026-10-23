@@ -1,0 +1,83 @@
+// 한국어 – ZOLLER 전시회 앱 (제품명은 번역하지 않으며 항상 »…«로 표기)
+export default {
+  'ui.back': '뒤로', 'ui.saved': '내 목록', 'ui.end': '종료',
+  'idle.h': '아직 계신가요?', 'idle.p': '곧 앱이 다시 시작되며 선택 내용이 삭제됩니다.', 'idle.stay': '네, 계속할게요', 'idle.end': '다시 시작',
+  'live.short': '{name} 부스에서 실물 시연', 'live.tag': '부스 전시', 'live.p': '이 장비는 저희 부스에 전시되어 있습니다. 시연을 요청해 주세요.',
+  'tag.film': '영상', 'tag.saved': '저장됨',
+
+  'home.h1': 'ZOLLER에 오신 것을 환영합니다.',
+  'home.lead': '공구 순환의 모든 과정을 한 곳에서. 보관부터 기계까지. 장비를 눌러 보세요.',
+  'home.films': '영상 보기', 'home.films.s': '영상 {n}편, 자막 제공',
+  'home.calc': '절감 효과 계산', 'home.calc.s': '프리세팅된 공구의 효과',
+  'home.planer': '툴룸 계획하기', 'home.planer.s': '귀사의 생산을 3D로, 효과와 함께',
+  'home.contact': '문의 및 자료', 'home.contact.s': '휴대폰으로 받거나 여기서 입력',
+
+  'claim.keeper': '모든 것을 제자리에.', 'claim.toolorganizer': '작은 부품도 바로 찾습니다.', 'claim.toolstation': '체계적인 조립.',
+  'claim.powershrink400': '열을, 정밀하게.', 'claim.titanium': '잡은 것은 놓치지 않습니다.', 'claim.toolbalancer': '스핀들에 고요함을.',
+  'claim.redomatic600': '믿을 수 있는 길이.', 'claim.venturion': '눈에 보이는 정밀함.', 'claim.smile': '수익으로 이어지는 측정.',
+  'claim.zidcode': '모든 숫자를 제자리에.',
+  'prod.titanium': '»titanium«', 'role.titanium': '빠짐 방지 기능이 있는 HPC 열박음 홀더',
+
+  'spec.drawers': '수직 서랍', 'spec.load': '수직 서랍당 적재 하중', 'spec.heat': '가열 시간', 'spec.cool': '냉각 시간',
+  'spec.len': '최대 공구 길이', 'spec.dia': '최대 공구 직경', 'spec.shank': '생크 직경 최대', 'spec.balance': '밸런싱 등급',
+  'spec.acc': '길이 정밀도', 'spec.cycle': '열박음·냉각·측정', 'spec.energy': '에너지 절감 (최대)',
+  'spec.setup': '사용 고객의 셋업 시간', 'spec.life': '사용 고객의 공구 수명', 'spec.entry': '데이터 입력 시간', 'spec.typos': '입력 오류',
+
+  'dev.photo': '사진', 'dev.film': '영상', 'dev.hint': '한 손가락으로 회전, 두 손가락으로 확대', 'dev.source': '출처',
+  'dev.watch': '영상 보기', 'dev.save': '저장', 'dev.saved': '저장됨', 'dev.saved.toast': '저장되었습니다. 마지막에 목록을 휴대폰으로 가져가세요.',
+  'dev.ar': 'AR로 보기', 'dev.ar.fail': '이 기기에서는 AR을 사용할 수 없습니다.', 'dev.mobile': '내 휴대폰으로',
+  'dev.prev': '이전 장비', 'dev.next': '다음 장비',
+
+  'films.kicker': 'ZOLLER 영상', 'films.h': '영상', 'films.p': '각 영상은 장비가 작동하는 모습을 보여 줍니다. 소리와 함께, 고객님의 언어로 된 자막을 제공합니다.',
+  'films.seen': '시청함', 'films.subs': '자막',
+  'film.before-after': '같은 아침', 'film.venturion': '1마이크로미터.', 'film.keeper': '모든 것을 제자리에.', 'film.powershrink400': '열을, 정밀하게.',
+  'film.redomatic600': '스핀들 네 개. 하나의 길이.', 'film.zidcode': '모든 숫자를 제자리에.', 'film.titanium': '잡은 것은 놓치지 않습니다.',
+  'film.smile': 'Keep it green.', 'film.toolorganizer': '작은 부품도 바로 찾습니다.', 'film.toolstation': '체계적인 조립.',
+  'player.again': '다시 보기', 'player.more': '{name} 자세히 보기', 'player.next': '다음: {title}',
+
+  'calc.kicker': '절감 효과 계산기', 'calc.h': '프리세팅된 공구는 귀사에 무엇을 가져다줄까요?',
+  'calc.p': '세 가지만 입력하면 됩니다. 수치는 ZOLLER 경제성 계산기를 기준으로 합니다.',
+  'calc.machines': 'CNC 기계', 'calc.shifts': '하루 교대 수', 'calc.days': '연간 근무일',
+  'calc.rate': '기계 시간당 비용', 'calc.rate.s': '스핀들 1시간의 비용',
+  'calc.save': '연간 절감액, 최소', 'calc.hours': '시간: 프리세팅되지 않았거나 잘못 프리세팅된 공구로 인한 연간 스핀들 정지',
+  'calc.cost': '시간당 {rate} 기준 정지 비용', 'calc.note': '교대당 8시간 기준의 참고값입니다. 정확한 수치는 툴룸 플래너가 계산합니다.',
+  'calc.planer': '자세히 계획하기', 'calc.keep': '결과를 휴대폰으로',
+
+  'planer.h': '툴룸 플래너', 'planer.taken': '계획이 목록에 추가되었습니다.',
+
+  'qr.h': '전시회 자료를 휴대폰으로', 'qr.p': '카메라로 코드를 스캔하세요. 저장한 장비, 영상, 데이터와 문의 양식을 휴대폰에서 볼 수 있습니다.',
+  'qr.note': '앱 설치도, 회원 가입도 필요 없습니다. 문의하시기 전까지 데이터는 고객님께만 있습니다.',
+  'qr.link.h': '휴대폰에서 열기', 'qr.link.p': '이 페이지는 휴대폰에서 열립니다. 코드를 스캔하기만 하면 됩니다.',
+
+  'contact.kicker': '문의', 'contact.h': '계속 연락드리겠습니다', 'contact.p': '선택한 내용을 휴대폰으로 가져가시거나 연락처를 남겨 주세요. 담당자가 연락드립니다.',
+  'contact.saved': '내 목록', 'contact.empty': '아직 저장된 항목이 없습니다. 장비 화면에서 “저장”을 누르세요.',
+  'contact.calc': '절감 효과 계산기: 연간 최소 {v}', 'contact.plan': '툴룸 계획',
+  'form.h': '연락처 남기기', 'form.p': '견적, 방문 상담, 자료 등 원하시는 방식으로 연락드립니다.',
+  'form.first': '이름', 'form.last': '성', 'form.company': '회사', 'form.email': '이메일', 'form.phone': '전화번호',
+  'form.country': '국가', 'form.country.pick': '선택하세요', 'form.country.other': '기타 국가',
+  'form.wants': '관심 사항', 'form.msg': '메시지 (선택)',
+  'form.consent': '{company}가 연락을 위해 제 정보를 저장하는 데 동의합니다. 동의는 언제든지 철회할 수 있습니다.',
+  'form.required': '* 필수 항목. 이메일 또는 전화번호를 입력해 주세요.', 'form.send': '보내기',
+  'form.err': '표시된 항목을 입력하고 동의에 체크해 주세요.', 'form.err.reach': '이메일 주소 또는 전화번호를 입력해 주세요.',
+  'want.offer': '견적', 'want.demo': '시연', 'want.call': '전화 회신', 'want.docs': '이메일로 자료 받기', 'want.visit': '방문 상담',
+
+  'thanks.h': '{name} 님, 감사합니다!', 'thanks.p': '문의가 접수되었습니다. 담당자가 연락드리겠습니다.',
+  'thanks.mobile': '전시회 자료를 휴대폰으로', 'thanks.done': '완료', 'thanks.auto': '{n}초 후 다시 시작',
+
+  'lang.h': '언어 선택',
+  'end.h': '관람을 마치시겠습니까?', 'end.p': '다음 방문객을 위해 앱이 다시 시작됩니다.',
+  'end.p.saved': '내 목록이 삭제됩니다. 먼저 휴대폰으로 가져가세요.',
+  'end.qr': '목록을 휴대폰으로', 'end.yes': '종료', 'end.no': '취소',
+
+  'm.title': 'ZOLLER 전시회 자료', 'm.hello': '방문해 주셔서 감사합니다.', 'm.visit': '부스에 들러 주세요: {where}',
+  'm.devices': '저장한 장비', 'm.facts': '사실과 출처', 'm.films': '영상', 'm.calc': '절감 효과 계산', 'm.plan': '툴룸', 'm.plan.open': '계획 열기',
+  'm.planer': '툴룸 플래너 열기', 'm.product': '제품 페이지', 'm.showroom': '3D 쇼룸', 'm.more': '모든 장비',
+  'm.calc.line': 'CNC 기계 {machines}대 · {shifts}교대 · 근무일 {days}일 · {rate}/시간',
+  'm.contact': '문의하기', 'm.contact.p': '메시지를 남겨 주세요. 견적, 방문 상담, 자료 등으로 답변드리겠습니다.',
+  'm.send': '문의 보내기', 'm.sent': '감사합니다! 문의가 접수되었습니다.', 'm.mail': '문의 내용이 입력된 이메일 앱이 열립니다. 보내기만 누르세요.',
+  'm.fail': '전송하지 못했습니다. 이메일 앱을 엽니다.',
+  'm.share': '공유', 'm.save': '이 페이지는 계속 열 수 있습니다. 북마크하거나 공유하세요.',
+  'm.country': '국가', 'm.privacy': '개인정보 보호', 'm.imprint': '법적 고지', 'm.company': '담당 연락처',
+  'm.subject': '전시회 문의', 'm.body.intro': '안녕하세요.', 'm.body.interest': '관심 제품', 'm.body.wants': '요청 사항',
+  'm.body.event': '전시회', 'm.body.calc': '절감 효과 계산기', 'm.body.plan': '툴룸 계획', 'm.body.bye': '감사합니다.',
+};

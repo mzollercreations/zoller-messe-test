@@ -1,0 +1,83 @@
+// 中文 – ZOLLER 展会应用（产品名称从不翻译，始终写在 »…« 中）
+export default {
+  'ui.back': '返回', 'ui.saved': '我的清单', 'ui.end': '结束',
+  'idle.h': '您还在吗？', 'idle.p': '应用即将重新启动，并清除您的选择。', 'idle.stay': '是的，继续', 'idle.end': '重新开始',
+  'live.short': '{name} 展台现场演示', 'live.tag': '展台现场', 'live.p': '这台设备就在我们的展台上——欢迎向我们预约现场演示。',
+  'tag.film': '视频', 'tag.saved': '已收藏',
+
+  'home.h1': '欢迎来到 ZOLLER。',
+  'home.lead': '完整的刀具循环，一站式提供——从存储到机床。请点击一台设备。',
+  'home.films': '观看视频', 'home.films.s': '{n} 部视频，带字幕',
+  'home.calc': '计算节省', 'home.calc.s': '预调刀具能带来什么',
+  'home.planer': '规划刀具室', 'home.planer.s': '您的生产 3D 呈现，附带收益',
+  'home.contact': '联系与资料', 'home.contact.s': '发送到手机，或在此填写',
+
+  'claim.keeper': '一切各就各位。', 'claim.toolorganizer': '小零件，一找即得。', 'claim.toolstation': '装配，有条不紊。',
+  'claim.powershrink400': '热量，精准。', 'claim.titanium': '夹得住，握得牢。', 'claim.toolbalancer': '主轴平稳如初。',
+  'claim.redomatic600': '值得信赖的长度。', 'claim.venturion': '看得见的精度。', 'claim.smile': '物有所值的测量。',
+  'claim.zidcode': '每个数字各就其位。',
+  'prod.titanium': '»titanium«', 'role.titanium': '带防拔出保护的 HPC 热缩刀柄',
+
+  'spec.drawers': '个垂直抽屉', 'spec.load': '每个垂直抽屉承重', 'spec.heat': '加热时间', 'spec.cool': '冷却时间',
+  'spec.len': '最大刀具长度', 'spec.dia': '最大刀具直径', 'spec.shank': '刀杆直径最高', 'spec.balance': '平衡精度',
+  'spec.acc': '长度精度', 'spec.cycle': '热缩、冷却和测量', 'spec.energy': '能耗降低（最高）',
+  'spec.setup': '用户换产时间', 'spec.life': '用户刀具寿命', 'spec.entry': '数据输入时间', 'spec.typos': '输入错误',
+
+  'dev.photo': '照片', 'dev.film': '视频', 'dev.hint': '单指旋转，双指缩放', 'dev.source': '来源',
+  'dev.watch': '观看视频', 'dev.save': '收藏', 'dev.saved': '已收藏', 'dev.saved.toast': '已收藏——结束时可将清单发送到手机。',
+  'dev.ar': 'AR 查看', 'dev.ar.fail': '此设备不支持 AR。', 'dev.mobile': '发送到手机',
+  'dev.prev': '上一台设备', 'dev.next': '下一台设备',
+
+  'films.kicker': 'ZOLLER 视频', 'films.h': '视频', 'films.p': '每部视频展示一台设备的工作过程——带声音，并配有您语言的字幕。',
+  'films.seen': '已观看', 'films.subs': '字幕',
+  'film.before-after': '同一个早晨', 'film.venturion': '一微米。', 'film.keeper': '一切各就各位。', 'film.powershrink400': '热量，精准。',
+  'film.redomatic600': '四个主轴。同一长度。', 'film.zidcode': '每个数字各就其位。', 'film.titanium': '夹得住，握得牢。',
+  'film.smile': 'Keep it green.', 'film.toolorganizer': '小零件，一找即得。', 'film.toolstation': '装配，有条不紊。',
+  'player.again': '再看一遍', 'player.more': '了解 {name}', 'player.next': '下一部：{title}',
+
+  'calc.kicker': '节省计算器', 'calc.h': '预调刀具能为您的工厂带来什么？',
+  'calc.p': '只需三项数据。数字来自 ZOLLER 经济性计算器。',
+  'calc.machines': '数控机床', 'calc.shifts': '每天班次', 'calc.days': '每年工作日',
+  'calc.rate': '机床小时费率', 'calc.rate.s': '一小时主轴时间的成本',
+  'calc.save': '每年节省，至少', 'calc.hours': '小时：每年因刀具未预调或预调不当而造成的主轴停机',
+  'calc.cost': '按每小时 {rate} 计算的停机成本', 'calc.note': '参考值，按每班 8 小时计。精确数字由刀具室规划器计算。',
+  'calc.planer': '详细规划', 'calc.keep': '结果发送到手机',
+
+  'planer.h': '刀具室规划器', 'planer.taken': '您的规划已加入清单。',
+
+  'qr.h': '把展会资料带到手机上', 'qr.p': '用相机扫描二维码：收藏的设备、视频、数据和联系表单——都在您的手机上。',
+  'qr.note': '无需应用，无需注册。在您联系我们之前，数据只留在您那里。',
+  'qr.link.h': '在手机上打开', 'qr.link.p': '此页面将在您的手机上打开——扫描二维码即可。',
+
+  'contact.kicker': '联系', 'contact.h': '保持联系', 'contact.p': '把您的选择带到手机上，或留下您的信息——我们会与您联系。',
+  'contact.saved': '您的清单', 'contact.empty': '还没有收藏。请在设备页面点击“收藏”。',
+  'contact.calc': '节省计算器：每年至少 {v}', 'contact.plan': '您的刀具室规划',
+  'form.h': '留下您的信息', 'form.p': '我们将按您的需要提供报价、预约或资料。',
+  'form.first': '名', 'form.last': '姓', 'form.company': '公司', 'form.email': '电子邮箱', 'form.phone': '电话',
+  'form.country': '国家/地区', 'form.country.pick': '请选择', 'form.country.other': '其他国家/地区',
+  'form.wants': '我感兴趣的是', 'form.msg': '留言（可选）',
+  'form.consent': '我同意 {company} 保存我的信息以便与我联系。我可以随时撤回同意。',
+  'form.required': '* 必填项。请填写电子邮箱或电话。', 'form.send': '提交',
+  'form.err': '请填写标记的字段并确认同意。', 'form.err.reach': '请填写电子邮箱或电话号码。',
+  'want.offer': '报价', 'want.demo': '演示', 'want.call': '回电', 'want.docs': '邮件发送资料', 'want.visit': '上门拜访',
+
+  'thanks.h': '谢谢您，{name}！', 'thanks.p': '我们已收到您的咨询，会尽快与您联系。',
+  'thanks.mobile': '展会资料发送到手机', 'thanks.done': '完成', 'thanks.auto': '{n} 秒后重新开始',
+
+  'lang.h': '选择语言',
+  'end.h': '结束本次参观？', 'end.p': '应用将为下一位访客重新启动。',
+  'end.p.saved': '您的清单将被清除。请先把它发送到手机上。',
+  'end.qr': '清单发送到手机', 'end.yes': '结束', 'end.no': '取消',
+
+  'm.title': '您的 ZOLLER 展会资料', 'm.hello': '感谢您的光临。', 'm.visit': '欢迎来访：{where}',
+  'm.devices': '您的设备', 'm.facts': '事实与来源', 'm.films': '视频', 'm.calc': '您的节省计算', 'm.plan': '您的刀具室', 'm.plan.open': '打开规划',
+  'm.planer': '打开刀具室规划器', 'm.product': '产品页面', 'm.showroom': '3D 展厅', 'm.more': '全部设备',
+  'm.calc.line': '{machines} 台数控机床 · {shifts} 班 · {days} 个工作日 · {rate}/小时',
+  'm.contact': '联系我们', 'm.contact.p': '给我们留言——我们会提供报价、预约或资料。',
+  'm.send': '发送咨询', 'm.sent': '谢谢！我们已收到您的咨询。', 'm.mail': '您的邮件应用将打开并已填好咨询内容——只需点击发送。',
+  'm.fail': '发送失败——正在打开您的邮件应用。',
+  'm.share': '分享', 'm.save': '此页面将一直可用：可加入书签或分享。',
+  'm.country': '您的国家/地区', 'm.privacy': '隐私政策', 'm.imprint': '法律声明', 'm.company': '您的联系人',
+  'm.subject': '展会咨询', 'm.body.intro': '您好，', 'm.body.interest': '我感兴趣的产品', 'm.body.wants': '我希望',
+  'm.body.event': '展会', 'm.body.calc': '节省计算器', 'm.body.plan': '我的刀具室规划', 'm.body.bye': '此致敬礼',
+};

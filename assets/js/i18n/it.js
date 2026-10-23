@@ -1,0 +1,83 @@
+// Italiano – app fiera ZOLLER (i nomi dei prodotti non si traducono mai, sempre tra »…«)
+export default {
+  'ui.back': 'Indietro', 'ui.saved': 'La mia lista', 'ui.end': 'Termina',
+  'idle.h': 'Siete ancora qui?', 'idle.p': 'L’app sta per riavviarsi e cancellerà la vostra selezione.', 'idle.stay': 'Sì, continua', 'idle.end': 'Riavvia',
+  'live.short': '{name} dal vivo allo stand', 'live.tag': 'Allo stand', 'live.p': 'Questa macchina è qui al nostro stand: chiedeteci una dimostrazione.',
+  'tag.film': 'Video', 'tag.saved': 'Salvato',
+
+  'home.h1': 'Benvenuti da ZOLLER.',
+  'home.lead': 'L’intero ciclo dell’utensile da un unico fornitore: dal magazzino alla macchina. Toccate una macchina.',
+  'home.films': 'Guarda i video', 'home.films.s': '{n} video, con sottotitoli',
+  'home.calc': 'Calcola il risparmio', 'home.calc.s': 'Quanto rendono gli utensili presettati',
+  'home.planer': 'Pianifica la sala utensili', 'home.planer.s': 'La vostra produzione in 3D, con il guadagno',
+  'home.contact': 'Contatto e documenti', 'home.contact.s': 'Sullo smartphone o qui',
+
+  'claim.keeper': 'Ogni cosa al suo posto.', 'claim.toolorganizer': 'Minuteria, trovata subito.', 'claim.toolstation': 'Montaggio con metodo.',
+  'claim.powershrink400': 'Calore, con precisione.', 'claim.titanium': 'Tiene ciò che serra.', 'claim.toolbalancer': 'Calma nel mandrino.',
+  'claim.redomatic600': 'Una lunghezza di cui fidarsi.', 'claim.venturion': 'Precisione che si vede.', 'claim.smile': 'Misurare conviene.',
+  'claim.zidcode': 'Ogni cifra al suo posto.',
+  'prod.titanium': '»titanium«', 'role.titanium': 'Mandrino a calettamento HPC con protezione anti-sfilamento',
+
+  'spec.drawers': 'cassetti verticali', 'spec.load': 'portata per cassetto verticale', 'spec.heat': 'tempo di riscaldamento', 'spec.cool': 'tempo di raffreddamento',
+  'spec.len': 'lunghezza utensile max.', 'spec.dia': 'diametro utensile max.', 'spec.shank': 'diametro gambo fino a', 'spec.balance': 'qualità di equilibratura',
+  'spec.acc': 'precisione in lunghezza', 'spec.cycle': 'calettare, raffreddare e misurare', 'spec.energy': 'di energia in meno (fino a)',
+  'spec.setup': 'tempo di attrezzaggio presso un cliente', 'spec.life': 'durata utensile presso un cliente', 'spec.entry': 'di tempo per l’inserimento dati', 'spec.typos': 'errori di battitura',
+
+  'dev.photo': 'Foto', 'dev.film': 'Video', 'dev.hint': 'Ruotate con un dito, ingrandite con due', 'dev.source': 'Fonte',
+  'dev.watch': 'Guarda il video', 'dev.save': 'Salva', 'dev.saved': 'Salvato', 'dev.saved.toast': 'Salvato: alla fine potete portare la lista sullo smartphone.',
+  'dev.ar': 'Vedi in AR', 'dev.ar.fail': 'La realtà aumentata non è disponibile su questo dispositivo.', 'dev.mobile': 'Sul mio smartphone',
+  'dev.prev': 'Macchina precedente', 'dev.next': 'Macchina successiva',
+
+  'films.kicker': 'Video ZOLLER', 'films.h': 'Video', 'films.p': 'Ogni video mostra una macchina in azione, con audio e sottotitoli nella vostra lingua.',
+  'films.seen': 'Visto', 'films.subs': 'Sottotitoli',
+  'film.before-after': 'La stessa mattina', 'film.venturion': 'Un micron.', 'film.keeper': 'Ogni cosa al suo posto.', 'film.powershrink400': 'Calore, con precisione.',
+  'film.redomatic600': 'Quattro mandrini. Una sola lunghezza.', 'film.zidcode': 'Ogni cifra al suo posto.', 'film.titanium': 'Tiene ciò che serra.',
+  'film.smile': 'Keep it green.', 'film.toolorganizer': 'Minuteria, trovata subito.', 'film.toolstation': 'Montaggio con metodo.',
+  'player.again': 'Rivedi', 'player.more': 'Scopri {name}', 'player.next': 'Prossimo: {title}',
+
+  'calc.kicker': 'Calcolatore di risparmio', 'calc.h': 'Quanto rendono gli utensili presettati alla vostra azienda?',
+  'calc.p': 'Bastano tre dati. Le cifre provengono dal calcolatore di redditività ZOLLER.',
+  'calc.machines': 'Macchine CNC', 'calc.shifts': 'Turni al giorno', 'calc.days': 'Giorni lavorativi all’anno',
+  'calc.rate': 'Costo orario macchina', 'calc.rate.s': 'Quanto costa un’ora di mandrino',
+  'calc.save': 'Risparmio annuo, almeno', 'calc.hours': 'ore di fermo mandrino all’anno per utensili che arrivano non presettati o presettati male',
+  'calc.cost': 'costa questo fermo a {rate} all’ora', 'calc.note': 'Valori indicativi con 8 ore per turno. Il pianificatore calcola i vostri valori esatti.',
+  'calc.planer': 'Pianifica nel dettaglio', 'calc.keep': 'Risultato sullo smartphone',
+
+  'planer.h': 'Pianificatore sala utensili', 'planer.taken': 'La vostra pianificazione è nella lista.',
+
+  'qr.h': 'La vostra cartella fiera sullo smartphone', 'qr.p': 'Inquadrate il codice con la fotocamera: le macchine salvate, i video, i dati e un modulo di contatto, sul vostro smartphone.',
+  'qr.note': 'Nessuna app, nessuna registrazione. I vostri dati restano a voi finché non ci scrivete.',
+  'qr.link.h': 'Apri sullo smartphone', 'qr.link.p': 'Questa pagina si apre sul vostro smartphone: basta inquadrare il codice.',
+
+  'contact.kicker': 'Contatto', 'contact.h': 'Restiamo in contatto', 'contact.p': 'Portate la vostra selezione sullo smartphone o lasciateci i vostri dati: vi ricontatteremo.',
+  'contact.saved': 'La vostra lista', 'contact.empty': 'Ancora nulla di salvato. Toccate «Salva» su una macchina.',
+  'contact.calc': 'Calcolatore di risparmio: almeno {v} all’anno', 'contact.plan': 'La vostra pianificazione della sala utensili',
+  'form.h': 'Lasciate i vostri dati', 'form.p': 'Vi ricontatteremo con un’offerta, un appuntamento o la documentazione, come preferite.',
+  'form.first': 'Nome', 'form.last': 'Cognome', 'form.company': 'Azienda', 'form.email': 'E-mail', 'form.phone': 'Telefono',
+  'form.country': 'Paese', 'form.country.pick': 'Selezionate', 'form.country.other': 'Altro paese',
+  'form.wants': 'Mi interessa', 'form.msg': 'Messaggio (facoltativo)',
+  'form.consent': 'Acconsento che {company} conservi i miei dati per contattarmi. Posso revocare il consenso in qualsiasi momento.',
+  'form.required': '* Campo obbligatorio. Indicate un’e-mail o un numero di telefono.', 'form.send': 'Invia',
+  'form.err': 'Compilate i campi evidenziati e confermate il consenso.', 'form.err.reach': 'Indicate un indirizzo e-mail o un numero di telefono.',
+  'want.offer': 'un’offerta', 'want.demo': 'una dimostrazione', 'want.call': 'essere richiamato', 'want.docs': 'documentazione via e-mail', 'want.visit': 'una visita in azienda',
+
+  'thanks.h': 'Grazie, {name}!', 'thanks.p': 'Abbiamo ricevuto la vostra richiesta. Vi ricontatteremo.',
+  'thanks.mobile': 'Cartella fiera sullo smartphone', 'thanks.done': 'Fatto', 'thanks.auto': 'Riavvio tra {n} s',
+
+  'lang.h': 'Scegliete la lingua',
+  'end.h': 'Terminare la visita?', 'end.p': 'L’app si riavvia per il prossimo visitatore.',
+  'end.p.saved': 'La vostra lista verrà cancellata. Portatela prima sullo smartphone.',
+  'end.qr': 'Lista sullo smartphone', 'end.yes': 'Termina', 'end.no': 'Annulla',
+
+  'm.title': 'La vostra cartella fiera ZOLLER', 'm.hello': 'Grazie per la visita.', 'm.visit': 'Veniteci a trovare: {where}',
+  'm.devices': 'Le vostre macchine', 'm.facts': 'Dati e fonti', 'm.films': 'Video', 'm.calc': 'Il vostro calcolo del risparmio', 'm.plan': 'La vostra sala utensili', 'm.plan.open': 'Apri la pianificazione',
+  'm.planer': 'Apri il pianificatore sala utensili', 'm.product': 'Pagina prodotto', 'm.showroom': 'Showroom 3D', 'm.more': 'Tutte le macchine',
+  'm.calc.line': '{machines} macchine CNC · {shifts} turni · {days} giorni lavorativi · {rate}/h',
+  'm.contact': 'Contattateci', 'm.contact.p': 'Scriveteci: vi ricontatteremo con un’offerta, un appuntamento o la documentazione.',
+  'm.send': 'Invia richiesta', 'm.sent': 'Grazie! Abbiamo ricevuto la vostra richiesta.', 'm.mail': 'Si apre la vostra app di posta con la richiesta pronta: basta inviarla.',
+  'm.fail': 'Invio non riuscito: apriamo la vostra app di posta.',
+  'm.share': 'Condividi', 'm.save': 'Questa pagina resta disponibile: salvatela nei preferiti o condividetela.',
+  'm.country': 'Il vostro paese', 'm.privacy': 'Privacy', 'm.imprint': 'Note legali', 'm.company': 'Il vostro referente',
+  'm.subject': 'Richiesta dalla fiera', 'm.body.intro': 'Buongiorno,', 'm.body.interest': 'Mi interessa', 'm.body.wants': 'Desidero',
+  'm.body.event': 'Fiera', 'm.body.calc': 'Calcolatore di risparmio', 'm.body.plan': 'La mia pianificazione della sala utensili', 'm.body.bye': 'Cordiali saluti',
+};

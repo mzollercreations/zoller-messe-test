@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta charset="utf-8">
+<base href="../">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Takım odası planlayıcı | ZOLLER</title>
+<meta name="description" content="Tezgâhlar, vardiyalar, takımlar – ve bugün sizi yavaşlatan şeyler. Kendi sözlerinizle. Planlayıcı tezgâhlarınızı bir 3D holüne yerleştirir, gerçek CAD verilerinden uygun ZOLLER takım odasını kurar ve kazancınızı hesaplar.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="assets/img/favicon.ico">
+<link rel="preload" href="assets/fonts/T-Star-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/T-Star-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/app.css?v=e00a80d8e5">
+<script src="assets/js/currency.js?v=e00a80d8e5"></script>
+<script type="importmap">{"imports": {"three": "./assets/vendor/three.module.min.js?v=e00a80d8e5", "./assets/js/app.js": "./assets/js/app.js?v=e00a80d8e5", "./assets/js/engine.js": "./assets/js/engine.js?v=e00a80d8e5", "./assets/js/expert.js": "./assets/js/expert.js?v=e00a80d8e5", "./assets/js/knowledge.js": "./assets/js/knowledge.js?v=e00a80d8e5", "./assets/js/machines.js": "./assets/js/machines.js?v=e00a80d8e5", "./assets/js/nlu.js": "./assets/js/nlu.js?v=e00a80d8e5", "./assets/js/scene.js": "./assets/js/scene.js?v=e00a80d8e5", "./assets/js/strings-cs.js": "./assets/js/strings-cs.js?v=e00a80d8e5", "./assets/js/strings-es.js": "./assets/js/strings-es.js?v=e00a80d8e5", "./assets/js/strings-fr.js": "./assets/js/strings-fr.js?v=e00a80d8e5", "./assets/js/strings-hu.js": "./assets/js/strings-hu.js?v=e00a80d8e5", "./assets/js/strings-it.js": "./assets/js/strings-it.js?v=e00a80d8e5", "./assets/js/strings-ja.js": "./assets/js/strings-ja.js?v=e00a80d8e5", "./assets/js/strings-ko.js": "./assets/js/strings-ko.js?v=e00a80d8e5", "./assets/js/strings-pl.js": "./assets/js/strings-pl.js?v=e00a80d8e5", "./assets/js/strings-pt-BR.js": "./assets/js/strings-pt-BR.js?v=e00a80d8e5", "./assets/js/strings-pt.js": "./assets/js/strings-pt.js?v=e00a80d8e5", "./assets/js/strings-ru.js": "./assets/js/strings-ru.js?v=e00a80d8e5", "./assets/js/strings-sk.js": "./assets/js/strings-sk.js?v=e00a80d8e5", "./assets/js/strings-sl.js": "./assets/js/strings-sl.js?v=e00a80d8e5", "./assets/js/strings-sv.js": "./assets/js/strings-sv.js?v=e00a80d8e5", "./assets/js/strings-tr.js": "./assets/js/strings-tr.js?v=e00a80d8e5", "./assets/js/strings-zh.js": "./assets/js/strings-zh.js?v=e00a80d8e5", "./assets/js/strings.js": "./assets/js/strings.js?v=e00a80d8e5", "./assets/js/xr.js": "./assets/js/xr.js?v=e00a80d8e5", "./assets/vendor/BufferGeometryUtils.js": "./assets/vendor/BufferGeometryUtils.js?v=e00a80d8e5", "./assets/vendor/DRACOLoader.js": "./assets/vendor/DRACOLoader.js?v=e00a80d8e5", "./assets/vendor/GLTFExporter.js": "./assets/vendor/GLTFExporter.js?v=e00a80d8e5", "./assets/vendor/GLTFLoader.js": "./assets/vendor/GLTFLoader.js?v=e00a80d8e5", "./assets/vendor/OBJLoader.js": "./assets/vendor/OBJLoader.js?v=e00a80d8e5", "./assets/vendor/OrbitControls.js": "./assets/vendor/OrbitControls.js?v=e00a80d8e5", "./assets/vendor/RoomEnvironment.js": "./assets/vendor/RoomEnvironment.js?v=e00a80d8e5", "./assets/vendor/STLLoader.js": "./assets/vendor/STLLoader.js?v=e00a80d8e5", "./assets/vendor/USDZExporter.js": "./assets/vendor/USDZExporter.js?v=e00a80d8e5", "./assets/vendor/fflate.module.js": "./assets/vendor/fflate.module.js?v=e00a80d8e5", "./assets/vendor/qrcode.min.js": "./assets/vendor/qrcode.min.js?v=e00a80d8e5", "./assets/vendor/three.module.min.js": "./assets/vendor/three.module.min.js?v=e00a80d8e5"}}</script>
+<script>window.__kioskNav=function(u){try{if(window.parent!==window&&window.parent.kioskPlaner){window.parent.kioskPlaner.mail(u);return}}catch(e){}location.href=u};</script><script>window.PLANER = {"lang":"tr","locale":"tr-TR","base":"","site":"tr","country":"Türkiye","siteUrl":"https://global.zoller.info/tr/anasayfa","showroom":"https://zoller-canada.com/3d-showroom","planer":"https://mzollercreations.github.io/zoller-messe-test/planer/tr-tr/","mail":"info@zoller-tr.com","company":"ZOLLER Ölçüm Teknolojileri San. ve Tic. Ltd. Şti.","expert":"https://myzoller.com/int/en/expert/booking/","langs":["tr"],"locales":{"tr":"tr-tr/"},"links":{"smile":"https://global.zoller.info/tr/anasayfa","venturion":"https://global.zoller.info/tr/anasayfa","venturion600":"https://global.zoller.info/tr/anasayfa","venturion800":"https://global.zoller.info/tr/anasayfa","hyperion":"https://global.zoller.info/tr/anasayfa","redomatic":"https://global.zoller.info/tr/anasayfa","powershrink":"https://global.zoller.info/tr/anasayfa","toolbalancer":"https://global.zoller.info/tr/anasayfa","keeper":"https://global.zoller.info/tr/anasayfa","toolorganizer":"https://global.zoller.info/tr/anasayfa","twister":"https://global.zoller.info/tr/anasayfa","autolock":"https://global.zoller.info/tr/anasayfa","toolstation":"https://global.zoller.info/tr/anasayfa","ztower":"https://global.zoller.info/tr/anasayfa","zidcode":"https://global.zoller.info/tr/anasayfa","zidcode40":"https://global.zoller.info/tr/anasayfa","idchip":"https://global.zoller.info/tr/anasayfa","idlabel":"https://global.zoller.info/tr/anasayfa","toolcart":"https://global.zoller.info/tr/anasayfa","loadbox":"https://global.zoller.info/tr/anasayfa","coramachineload":"https://global.zoller.info/tr/anasayfa","coralogistic":"https://global.zoller.info/tr/anasayfa","robobox":"https://global.zoller.info/tr/anasayfa","corameasure":"https://global.zoller.info/tr/anasayfa","micbox":"https://global.zoller.info/tr/anasayfa","roboset-2":"https://global.zoller.info/tr/anasayfa","genius":"https://global.zoller.info/tr/anasayfa","titan":"https://global.zoller.info/tr/anasayfa","hobcheck":"https://global.zoller.info/tr/anasayfa","smartcheck":"https://global.zoller.info/tr/anasayfa","pombasic":"https://global.zoller.info/tr/anasayfa","tms-core":"https://global.zoller.info/tr/anasayfa","zstock":"https://global.zoller.info/tr/anasayfa","zconnectivity":"https://global.zoller.info/tr/anasayfa","zcam":"https://global.zoller.info/tr/anasayfa","zshopfloor":"https://global.zoller.info/tr/anasayfa","zresources":"https://global.zoller.info/tr/anasayfa","zintegration":"https://global.zoller.info/tr/anasayfa","tms-starter":"https://global.zoller.info/tr/anasayfa","tms-silver":"https://global.zoller.info/tr/anasayfa","tms-gold":"https://global.zoller.info/tr/anasayfa"},"factLinks":{"calc15k":"https://global.zoller.info/tr/anasayfa","min452":"https://global.zoller.info/tr/anasayfa","setup40":"https://global.zoller.info/tr/anasayfa","tms5":"https://global.zoller.info/tr/anasayfa","tool20":"https://global.zoller.info/tr/anasayfa","lauble":"https://global.zoller.info/tr/anasayfa","ituwa":"https://global.zoller.info/tr/anasayfa","v70":"https://global.zoller.info/tr/anasayfa","procam":"https://global.zoller.info/tr/anasayfa","top55":"https://global.zoller.info/tr/anasayfa","sycotec":"https://global.zoller.info/tr/anasayfa","genius60":"https://global.zoller.info/tr/anasayfa","life15":"https://global.zoller.info/tr/anasayfa","zid45":"https://global.zoller.info/tr/anasayfa","zdmi":"https://global.zoller.info/tr/anasayfa","zidnet":"https://global.zoller.info/tr/anasayfa","idlabel":"https://global.zoller.info/tr/anasayfa","robobox":"https://global.zoller.info/tr/anasayfa","roboboxd":"https://global.zoller.info/tr/anasayfa","redo10":"https://global.zoller.info/tr/anasayfa","runout3":"https://global.zoller.info/tr/anasayfa","tb04":"https://global.zoller.info/tr/anasayfa","ps27":"https://global.zoller.info/tr/anasayfa","psmodels":"https://global.zoller.info/tr/anasayfa","keeper420":"https://global.zoller.info/tr/anasayfa","roboset":"https://global.zoller.info/tr/anasayfa","hyp20":"https://global.zoller.info/tr/anasayfa","smiled":"https://global.zoller.info/tr/anasayfa","ventd":"https://global.zoller.info/tr/anasayfa","hypd":"https://global.zoller.info/tr/anasayfa","loadbox":"https://global.zoller.info/tr/anasayfa","cora":"https://global.zoller.info/tr/anasayfa","webtms":"https://global.zoller.info/tr/anasayfa","zconn":"https://global.zoller.info/tr/anasayfa"}};</script>
+</head>
+<body>
+<div class="app" data-app data-step="intro">
+  <header class="bar">
+    <a class="bar__logo" data-home href="https://global.zoller.info/tr/anasayfa" aria-label="ZOLLER"><img src="assets/img/zoller-white.svg" alt="ZOLLER" width="104" height="24"></a>
+    <span class="bar__title"><span data-t="ui.title">Werkzeugraum-Planer</span></span>
+    <nav class="steps" aria-label="Schritte" data-steps></nav>
+    <div class="bar__tools">
+      <a class="bar__showroom" data-showroom href="https://zoller-canada.com/3d-showroom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.8 20 7.4v9.2l-8 4.6-8-4.6V7.4z"/><path d="M4 7.4l8 4.6 8-4.6M12 12v9.2"/></svg><span data-t="ui.showroom">3D-Showroom</span></a>
+      <button class="cursel" type="button" data-currency-btn><span data-currency-code></span></button>
+      <div class="langsel"><select data-lang aria-label="Sprache"></select></div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="stage" data-stage>
+      <canvas></canvas>
+      <div class="labels" data-labels></div>
+      <div class="hud" data-hud>
+        <div class="seg seg--mode" role="group" data-mode>
+          <button type="button" data-v="before" data-t="room.before">Heute</button>
+          <button type="button" data-v="after" class="is-on" data-t="room.after">Mit ZOLLER</button>
+        </div>
+        <div class="hud__views" data-views>
+          <button type="button" data-view="overview" data-t="room.v.overview">Übersicht</button>
+          <button type="button" data-view="toolroom" data-t="room.v.toolroom">Werkzeugraum</button>
+          <button type="button" data-view="hall" data-t="room.v.hall">Maschinen</button>
+          <button type="button" class="hud__names" data-names aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.5h10.5l4.5 5-4.5 5H3.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M4 20 20 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="hud__names-x"/></svg><span data-t="room.hidenames">Namen verbergen</span></button>
+          <button type="button" class="hud__tour" data-tour><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg><span data-t="room.tour">Rundgang starten</span></button>
+        </div>
+      </div>
+      <div class="caption" data-caption hidden></div>
+      <div class="ticker" data-ticker hidden></div>
+      <div class="loader" data-loader><span data-t="ui.loading">Halle wird aufgebaut …</span><i><b data-progress></b></i></div>
+    </section>
+
+    <aside class="panel" data-panel>
+      <div class="panel__inner" data-panel-inner></div>
+    </aside>
+  </main>
+
+  <section class="intro" data-intro>
+    <div class="intro__inner">
+      <p class="kicker" data-t="intro.kicker">ZOLLER Werkzeugraum-Planer</p>
+      <h1 data-t="intro.h1">Beschreiben Sie Ihre Fertigung. Wir planen Ihren Werkzeugraum.</h1>
+      <p class="lead" data-t="intro.lead"></p>
+      <form class="prompt" data-prompt>
+        <textarea rows="4" data-prompt-text data-tp="intro.placeholder" aria-label="Ihre Fertigung"></textarea>
+        <div class="prompt__bar">
+          <div class="prompt__hits" data-hits aria-live="polite"></div>
+          <button class="btn btn--yellow" type="submit"><span data-t="intro.go">Werkzeugraum planen</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+      </form>
+      <p class="intro__ex-h" data-t="intro.examples">Oder ein Beispiel wählen:</p>
+      <div class="intro__ex" data-examples></div>
+      <p class="intro__foot"><button type="button" class="link" data-manual data-t="intro.manual">Lieber Schritt für Schritt eingeben</button><span data-t="intro.trust"></span></p>
+    </div>
+  </section>
+
+  <section class="gain" data-gain hidden></section>
+</div>
+
+<div class="report" data-report></div>
+<dialog class="sheet" data-sheet><div class="sheet__inner" data-sheet-inner></div></dialog>
+<div class="toast" data-toast role="status" aria-live="polite"></div>
+<noscript><p style="padding:2rem;font:16px/1.5 sans-serif">Der Werkzeugraum-Planer braucht JavaScript und WebGL.</p></noscript>
+<script type="module" src="assets/js/app.js?v=e00a80d8e5"></script>
+</body>
+</html>

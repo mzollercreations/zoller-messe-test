@@ -1,0 +1,83 @@
+// Magyar – ZOLLER kiállítási alkalmazás (a termékneveket soha nem fordítjuk, mindig »…« között)
+export default {
+  'ui.back': 'Vissza', 'ui.saved': 'Listám', 'ui.end': 'Befejezés',
+  'idle.h': 'Még itt van?', 'idle.p': 'Az alkalmazás hamarosan újraindul, és törli a kiválasztását.', 'idle.stay': 'Igen, folytatom', 'idle.end': 'Újraindítás',
+  'live.short': '{name} élőben a standon', 'live.tag': 'A standon', 'live.p': 'Ez a készülék itt van a standunkon – kérjen tőlünk bemutatót.',
+  'tag.film': 'Videó', 'tag.saved': 'Elmentve',
+
+  'home.h1': 'Üdvözöljük a ZOLLER-nél.',
+  'home.lead': 'A teljes szerszámkörforgás egy kézből – a raktártól a gépig. Koppintson egy készülékre.',
+  'home.films': 'Videók megtekintése', 'home.films.s': '{n} videó, felirattal',
+  'home.calc': 'Megtakarítás kiszámítása', 'home.calc.s': 'Mit hoznak a beállított szerszámok',
+  'home.planer': 'Szerszámszoba tervezése', 'home.planer.s': 'Az Ön gyártása 3D-ben, a nyereséggel',
+  'home.contact': 'Kapcsolat és anyagok', 'home.contact.s': 'A telefonjára vagy itt helyben',
+
+  'claim.keeper': 'Mindent a helyén.', 'claim.toolorganizer': 'Apró alkatrészek, azonnal kéznél.', 'claim.toolstation': 'Szerelés rendszerrel.',
+  'claim.powershrink400': 'Hő, pontosan.', 'claim.titanium': 'Megtartja, amit befog.', 'claim.toolbalancer': 'Nyugalom az orsóban.',
+  'claim.redomatic600': 'Hossz, amelyben megbízhat.', 'claim.venturion': 'Látható pontosság.', 'claim.smile': 'Mérés, ami megtérül.',
+  'claim.zidcode': 'Minden számjegy a helyén.',
+  'prod.titanium': '»titanium«', 'role.titanium': 'HPC zsugortokmány kihúzódásgátlóval',
+
+  'spec.drawers': 'függőleges kihúzó', 'spec.load': 'teherbírás függőleges kihúzónként', 'spec.heat': 'melegítési idő', 'spec.cool': 'hűtési idő',
+  'spec.len': 'max. szerszámhossz', 'spec.dia': 'max. szerszámátmérő', 'spec.shank': 'szárátmérő legfeljebb', 'spec.balance': 'kiegyensúlyozási jóság',
+  'spec.acc': 'hosszpontosság', 'spec.cycle': 'zsugorítás, hűtés és mérés', 'spec.energy': 'kevesebb energia (akár)',
+  'spec.setup': 'átállási idő egy felhasználónál', 'spec.life': 'szerszáméltartam egy felhasználónál', 'spec.entry': 'idő az adatbevitelnél', 'spec.typos': 'elgépelés',
+
+  'dev.photo': 'Fotó', 'dev.film': 'Videó', 'dev.hint': 'Egy ujjal forgasson, kettővel nagyítson', 'dev.source': 'Forrás',
+  'dev.watch': 'Videó megtekintése', 'dev.save': 'Mentés', 'dev.saved': 'Elmentve', 'dev.saved.toast': 'Elmentve – a végén vigye magával a listát a telefonján.',
+  'dev.ar': 'Megtekintés AR-ben', 'dev.ar.fail': 'Az AR ezen az eszközön nem érhető el.', 'dev.mobile': 'A telefonomra',
+  'dev.prev': 'Előző készülék', 'dev.next': 'Következő készülék',
+
+  'films.kicker': 'ZOLLER videók', 'films.h': 'Videók', 'films.p': 'Minden videó egy készüléket mutat működés közben – hanggal és az Ön nyelvén megjelenő felirattal.',
+  'films.seen': 'Megtekintve', 'films.subs': 'Felirat',
+  'film.before-after': 'Ugyanaz a reggel', 'film.venturion': 'Egy mikrométer.', 'film.keeper': 'Mindent a helyén.', 'film.powershrink400': 'Hő, pontosan.',
+  'film.redomatic600': 'Négy orsó. Egy hossz.', 'film.zidcode': 'Minden számjegy a helyén.', 'film.titanium': 'Megtartja, amit befog.',
+  'film.smile': 'Keep it green.', 'film.toolorganizer': 'Apró alkatrészek, azonnal kéznél.', 'film.toolstation': 'Szerelés rendszerrel.',
+  'player.again': 'Újra', 'player.more': 'Bővebben: {name}', 'player.next': 'Következő: {title}',
+
+  'calc.kicker': 'Megtakarítás-kalkulátor', 'calc.h': 'Mit hoznak a beállított szerszámok az Ön üzemének?',
+  'calc.p': 'Három adat elég. A számok a ZOLLER gazdaságossági kalkulátorából származnak.',
+  'calc.machines': 'CNC-gépek', 'calc.shifts': 'Műszak naponta', 'calc.days': 'Munkanap évente',
+  'calc.rate': 'Gépóradíj', 'calc.rate.s': 'Mennyibe kerül egy orsóóra',
+  'calc.save': 'Éves megtakarítás, legalább', 'calc.hours': 'óra orsóállás évente olyan szerszámok miatt, amelyek beállítatlanul vagy rosszul beállítva érkeznek a géphez',
+  'calc.cost': 'kerül ez az állásidő {rate} óradíjjal', 'calc.note': 'Irányértékek műszakonként 8 órával. A pontos számokat a szerszámszoba-tervező számolja ki.',
+  'calc.planer': 'Részletes tervezés', 'calc.keep': 'Eredmény a telefonra',
+
+  'planer.h': 'Szerszámszoba-tervező', 'planer.taken': 'A terve a listáján van.',
+
+  'qr.h': 'Kiállítási mappája a telefonján', 'qr.p': 'Olvassa be a kódot a kamerával: elmentett készülékek, videók, adatok és kapcsolatfelvételi űrlap – a telefonján.',
+  'qr.note': 'Nincs alkalmazás, nincs regisztráció. Az adatai Önnél maradnak, amíg nem ír nekünk.',
+  'qr.link.h': 'Megnyitás a telefonon', 'qr.link.p': 'Ez az oldal a telefonján nyílik meg – csak olvassa be a kódot.',
+
+  'contact.kicker': 'Kapcsolat', 'contact.h': 'Maradjunk kapcsolatban', 'contact.p': 'Vigye magával a válogatását a telefonján, vagy hagyja meg adatait – jelentkezünk.',
+  'contact.saved': 'Az Ön listája', 'contact.empty': 'Még nincs mentett elem. Koppintson egy készüléknél a „Mentés” gombra.',
+  'contact.calc': 'Megtakarítás-kalkulátor: legalább {v} évente', 'contact.plan': 'Az Ön szerszámszoba-terve',
+  'form.h': 'Adja meg adatait', 'form.p': 'Ajánlattal, időponttal vagy anyagokkal jelentkezünk – ahogy Ön szeretné.',
+  'form.first': 'Keresztnév', 'form.last': 'Vezetéknév', 'form.company': 'Cég', 'form.email': 'E-mail', 'form.phone': 'Telefon',
+  'form.country': 'Ország', 'form.country.pick': 'Válasszon', 'form.country.other': 'Más ország',
+  'form.wants': 'Érdekel', 'form.msg': 'Üzenet (nem kötelező)',
+  'form.consent': 'Hozzájárulok, hogy a(z) {company} tárolja az adataimat a kapcsolatfelvétel céljából. Hozzájárulásomat bármikor visszavonhatom.',
+  'form.required': '* Kötelező mező. Adjon meg e-mail-címet vagy telefonszámot.', 'form.send': 'Küldés',
+  'form.err': 'Töltse ki a megjelölt mezőket, és erősítse meg a hozzájárulást.', 'form.err.reach': 'Adjon meg e-mail-címet vagy telefonszámot.',
+  'want.offer': 'ajánlat', 'want.demo': 'bemutató', 'want.call': 'visszahívás', 'want.docs': 'anyagok e-mailben', 'want.visit': 'helyszíni látogatás',
+
+  'thanks.h': 'Köszönjük, {name}!', 'thanks.p': 'Megkaptuk a megkeresését. Jelentkezünk.',
+  'thanks.mobile': 'Kiállítási mappa a telefonra', 'thanks.done': 'Kész', 'thanks.auto': 'Újraindulás {n} mp múlva',
+
+  'lang.h': 'Nyelv kiválasztása',
+  'end.h': 'Befejezi a látogatást?', 'end.p': 'Az alkalmazás újraindul a következő látogató számára.',
+  'end.p.saved': 'A listája törlődik. Előbb vigye magával a telefonján.',
+  'end.qr': 'Lista a telefonra', 'end.yes': 'Befejezés', 'end.no': 'Mégse',
+
+  'm.title': 'ZOLLER kiállítási mappája', 'm.hello': 'Köszönjük a látogatást.', 'm.visit': 'Látogasson el hozzánk: {where}',
+  'm.devices': 'Az Ön készülékei', 'm.facts': 'Tények és források', 'm.films': 'Videók', 'm.calc': 'Az Ön megtakarítás-számítása', 'm.plan': 'Az Ön szerszámszobája', 'm.plan.open': 'Terv megnyitása',
+  'm.planer': 'Szerszámszoba-tervező megnyitása', 'm.product': 'Termékoldal', 'm.showroom': '3D bemutatóterem', 'm.more': 'Összes készülék',
+  'm.calc.line': '{machines} CNC-gép · {shifts} műszak · {days} munkanap · {rate}/óra',
+  'm.contact': 'Kapcsolatfelvétel', 'm.contact.p': 'Írjon nekünk – ajánlattal, időponttal vagy anyagokkal jelentkezünk.',
+  'm.send': 'Megkeresés küldése', 'm.sent': 'Köszönjük! Megkaptuk a megkeresését.', 'm.mail': 'Megnyílik a levelezőalkalmazása a kész megkereséssel – csak el kell küldenie.',
+  'm.fail': 'A küldés nem sikerült – megnyitjuk a levelezőalkalmazását.',
+  'm.share': 'Megosztás', 'm.save': 'Ez az oldal elérhető marad: mentse el könyvjelzőként, vagy ossza meg.',
+  'm.country': 'Az Ön országa', 'm.privacy': 'Adatvédelem', 'm.imprint': 'Impresszum', 'm.company': 'Kapcsolattartója',
+  'm.subject': 'Kiállítási megkeresés', 'm.body.intro': 'Jó napot!', 'm.body.interest': 'Érdekel', 'm.body.wants': 'Szeretnék',
+  'm.body.event': 'Kiállítás', 'm.body.calc': 'Megtakarítás-kalkulátor', 'm.body.plan': 'Szerszámszoba-tervem', 'm.body.bye': 'Üdvözlettel',
+};

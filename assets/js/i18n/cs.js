@@ -1,0 +1,83 @@
+// Čeština – veletržní aplikace ZOLLER (názvy produktů se nikdy nepřekládají, vždy v »…«)
+export default {
+  'ui.back': 'Zpět', 'ui.saved': 'Můj seznam', 'ui.end': 'Ukončit',
+  'idle.h': 'Jste tu ještě?', 'idle.p': 'Aplikace se za chvíli restartuje a smaže váš výběr.', 'idle.stay': 'Ano, pokračovat', 'idle.end': 'Restartovat',
+  'live.short': '{name} živě na stánku', 'live.tag': 'Na stánku', 'live.p': 'Tento přístroj stojí přímo na našem stánku – požádejte nás o předvedení.',
+  'tag.film': 'Video', 'tag.saved': 'Uloženo',
+
+  'home.h1': 'Vítejte u ZOLLER.',
+  'home.lead': 'Celý oběh nástrojů od jednoho dodavatele – ze skladu až do stroje. Klepněte na přístroj.',
+  'home.films': 'Sledovat videa', 'home.films.s': '{n} videí s titulky',
+  'home.calc': 'Spočítat úsporu', 'home.calc.s': 'Co přinášejí seřízené nástroje',
+  'home.planer': 'Naplánovat nástrojárnu', 'home.planer.s': 'Vaše výroba ve 3D, i s přínosem',
+  'home.contact': 'Kontakt a podklady', 'home.contact.s': 'Do mobilu nebo přímo tady',
+
+  'claim.keeper': 'Všechno na svém místě.', 'claim.toolorganizer': 'Drobné díly, hned po ruce.', 'claim.toolstation': 'Montáž se systémem.',
+  'claim.powershrink400': 'Teplo, přesně.', 'claim.titanium': 'Drží, co upíná.', 'claim.toolbalancer': 'Klid ve vřetenu.',
+  'claim.redomatic600': 'Délka, na kterou je spolehnutí.', 'claim.venturion': 'Přesnost, kterou je vidět.', 'claim.smile': 'Měření, které se vyplatí.',
+  'claim.zidcode': 'Každá číslice na svém místě.',
+  'prod.titanium': '»titanium«', 'role.titanium': 'HPC tepelně upínací držák s pojistkou proti vytažení',
+
+  'spec.drawers': 'vertikálních výsuvů', 'spec.load': 'nosnost na vertikální výsuv', 'spec.heat': 'doba ohřevu', 'spec.cool': 'doba chlazení',
+  'spec.len': 'max. délka nástroje', 'spec.dia': 'max. průměr nástroje', 'spec.shank': 'průměr stopky až', 'spec.balance': 'jakost vyvážení',
+  'spec.acc': 'přesnost délky', 'spec.cycle': 'upnutí, chlazení a měření', 'spec.energy': 'méně energie (až)',
+  'spec.setup': 'doby seřízení u zákazníka', 'spec.life': 'životnost nástroje u zákazníka', 'spec.entry': 'času při zadávání dat', 'spec.typos': 'překlepů',
+
+  'dev.photo': 'Foto', 'dev.film': 'Video', 'dev.hint': 'Otáčejte jedním prstem, zoomujte dvěma', 'dev.source': 'Zdroj',
+  'dev.watch': 'Přehrát video', 'dev.save': 'Uložit', 'dev.saved': 'Uloženo', 'dev.saved.toast': 'Uloženo – na konci si seznam vezměte do mobilu.',
+  'dev.ar': 'Zobrazit v AR', 'dev.ar.fail': 'AR není na tomto zařízení k dispozici.', 'dev.mobile': 'Do mobilu',
+  'dev.prev': 'Předchozí přístroj', 'dev.next': 'Další přístroj',
+
+  'films.kicker': 'Videa ZOLLER', 'films.h': 'Videa', 'films.p': 'Každé video ukazuje přístroj v akci – se zvukem a titulky ve vašem jazyce.',
+  'films.seen': 'Zhlédnuto', 'films.subs': 'Titulky',
+  'film.before-after': 'Stejné ráno', 'film.venturion': 'Jeden mikrometr.', 'film.keeper': 'Všechno na svém místě.', 'film.powershrink400': 'Teplo, přesně.',
+  'film.redomatic600': 'Čtyři vřetena. Jedna délka.', 'film.zidcode': 'Každá číslice na svém místě.', 'film.titanium': 'Drží, co upíná.',
+  'film.smile': 'Keep it green.', 'film.toolorganizer': 'Drobné díly, hned po ruce.', 'film.toolstation': 'Montáž se systémem.',
+  'player.again': 'Přehrát znovu', 'player.more': 'Více o {name}', 'player.next': 'Další: {title}',
+
+  'calc.kicker': 'Kalkulačka úspor', 'calc.h': 'Co přinesou seřízené nástroje vaší firmě?',
+  'calc.p': 'Stačí tři údaje. Čísla pocházejí z kalkulačky hospodárnosti ZOLLER.',
+  'calc.machines': 'CNC stroje', 'calc.shifts': 'Směny za den', 'calc.days': 'Pracovní dny za rok',
+  'calc.rate': 'Hodinová sazba stroje', 'calc.rate.s': 'Kolik stojí hodina práce vřetena',
+  'calc.save': 'Úspora za rok, nejméně', 'calc.hours': 'hodin prostoje vřetena ročně kvůli nástrojům, které přijdou neseřízené nebo špatně seřízené',
+  'calc.cost': 'stojí tento prostoj při sazbě {rate} za hodinu', 'calc.note': 'Orientační hodnoty při 8 hodinách na směnu. Přesná čísla spočítá plánovač nástrojárny.',
+  'calc.planer': 'Naplánovat podrobně', 'calc.keep': 'Výsledek do mobilu',
+
+  'planer.h': 'Plánovač nástrojárny', 'planer.taken': 'Váš plán je na seznamu.',
+
+  'qr.h': 'Vaše veletržní složka v mobilu', 'qr.p': 'Naskenujte kód fotoaparátem: uložené přístroje, videa, data a kontaktní formulář – ve vašem mobilu.',
+  'qr.note': 'Žádná aplikace, žádná registrace. Vaše údaje zůstanou u vás, dokud nám nenapíšete.',
+  'qr.link.h': 'Otevřít v mobilu', 'qr.link.p': 'Tato stránka se otevře ve vašem mobilu – stačí naskenovat kód.',
+
+  'contact.kicker': 'Kontakt', 'contact.h': 'Zůstaňme v kontaktu', 'contact.p': 'Vezměte si výběr do mobilu nebo nám nechte své údaje – ozveme se.',
+  'contact.saved': 'Váš seznam', 'contact.empty': 'Zatím nic uloženo. U přístroje klepněte na „Uložit“.',
+  'contact.calc': 'Kalkulačka úspor: nejméně {v} ročně', 'contact.plan': 'Váš plán nástrojárny',
+  'form.h': 'Zanechte nám údaje', 'form.p': 'Ozveme se s nabídkou, termínem nebo podklady – podle vašeho přání.',
+  'form.first': 'Jméno', 'form.last': 'Příjmení', 'form.company': 'Firma', 'form.email': 'E-mail', 'form.phone': 'Telefon',
+  'form.country': 'Země', 'form.country.pick': 'Vyberte', 'form.country.other': 'Jiná země',
+  'form.wants': 'Mám zájem o', 'form.msg': 'Zpráva (nepovinné)',
+  'form.consent': 'Souhlasím s tím, že {company} uloží mé údaje, aby mě mohla kontaktovat. Souhlas mohu kdykoli odvolat.',
+  'form.required': '* Povinné pole. Uveďte e-mail nebo telefon.', 'form.send': 'Odeslat',
+  'form.err': 'Vyplňte označená pole a potvrďte souhlas.', 'form.err.reach': 'Uveďte e-mailovou adresu nebo telefonní číslo.',
+  'want.offer': 'nabídku', 'want.demo': 'předvedení', 'want.call': 'zpětné zavolání', 'want.docs': 'podklady e-mailem', 'want.visit': 'návštěvu u nás',
+
+  'thanks.h': 'Děkujeme, {name}!', 'thanks.p': 'Vaši poptávku jsme obdrželi. Ozveme se vám.',
+  'thanks.mobile': 'Veletržní složka do mobilu', 'thanks.done': 'Hotovo', 'thanks.auto': 'Restart za {n} s',
+
+  'lang.h': 'Vyberte jazyk',
+  'end.h': 'Ukončit návštěvu?', 'end.p': 'Aplikace se restartuje pro dalšího návštěvníka.',
+  'end.p.saved': 'Váš seznam se smaže. Nejdřív si ho vezměte do mobilu.',
+  'end.qr': 'Seznam do mobilu', 'end.yes': 'Ukončit', 'end.no': 'Zrušit',
+
+  'm.title': 'Vaše veletržní složka ZOLLER', 'm.hello': 'Děkujeme za návštěvu.', 'm.visit': 'Navštivte nás: {where}',
+  'm.devices': 'Vaše přístroje', 'm.facts': 'Fakta a zdroje', 'm.films': 'Videa', 'm.calc': 'Váš výpočet úspory', 'm.plan': 'Vaše nástrojárna', 'm.plan.open': 'Otevřít plán',
+  'm.planer': 'Otevřít plánovač nástrojárny', 'm.product': 'Stránka produktu', 'm.showroom': '3D showroom', 'm.more': 'Všechny přístroje',
+  'm.calc.line': '{machines} CNC strojů · {shifts} směny · {days} pracovních dní · {rate}/h',
+  'm.contact': 'Kontaktujte nás', 'm.contact.p': 'Napište nám – ozveme se s nabídkou, termínem nebo podklady.',
+  'm.send': 'Odeslat poptávku', 'm.sent': 'Děkujeme! Vaše poptávka dorazila.', 'm.mail': 'Otevře se vaše e-mailová aplikace s připravenou poptávkou – stačí ji odeslat.',
+  'm.fail': 'Odeslání se nezdařilo – otevíráme vaši e-mailovou aplikaci.',
+  'm.share': 'Sdílet', 'm.save': 'Tato stránka zůstane dostupná: uložte si ji do záložek nebo ji sdílejte.',
+  'm.country': 'Vaše země', 'm.privacy': 'Ochrana osobních údajů', 'm.imprint': 'Právní informace', 'm.company': 'Váš kontakt',
+  'm.subject': 'Poptávka z veletrhu', 'm.body.intro': 'Dobrý den,', 'm.body.interest': 'Mám zájem o', 'm.body.wants': 'Přeji si',
+  'm.body.event': 'Veletrh', 'm.body.calc': 'Kalkulačka úspor', 'm.body.plan': 'Můj plán nástrojárny', 'm.body.bye': 'S pozdravem',
+};

@@ -1,0 +1,83 @@
+// Slovenščina – sejemska aplikacija ZOLLER (imen izdelkov nikoli ne prevajamo, vedno v »…«)
+export default {
+  'ui.back': 'Nazaj', 'ui.saved': 'Moj seznam', 'ui.end': 'Končaj',
+  'idle.h': 'Ste še tukaj?', 'idle.p': 'Aplikacija se bo kmalu znova zagnala in izbrisala vaš izbor.', 'idle.stay': 'Da, nadaljuj', 'idle.end': 'Znova zaženi',
+  'live.short': '{name} v živo na stojnici', 'live.tag': 'Na stojnici', 'live.p': 'Ta naprava je tukaj na naši stojnici – prosite nas za predstavitev.',
+  'tag.film': 'Video', 'tag.saved': 'Shranjeno',
+
+  'home.h1': 'Dobrodošli pri ZOLLER.',
+  'home.lead': 'Celoten krogotok orodij od enega dobavitelja – od skladišča do stroja. Tapnite napravo.',
+  'home.films': 'Oglejte si videe', 'home.films.s': '{n} videov s podnapisi',
+  'home.calc': 'Izračunajte prihranek', 'home.calc.s': 'Kaj prinesejo prednastavljena orodja',
+  'home.planer': 'Načrtujte orodjarno', 'home.planer.s': 'Vaša proizvodnja v 3D, z dobičkom',
+  'home.contact': 'Kontakt in gradivo', 'home.contact.s': 'Na telefon ali kar tukaj',
+
+  'claim.keeper': 'Vse na svojem mestu.', 'claim.toolorganizer': 'Drobni deli, takoj pri roki.', 'claim.toolstation': 'Montaža s sistemom.',
+  'claim.powershrink400': 'Toplota, natančno.', 'claim.titanium': 'Drži, kar vpne.', 'claim.toolbalancer': 'Mir v vretenu.',
+  'claim.redomatic600': 'Dolžina, na katero se lahko zanesete.', 'claim.venturion': 'Natančnost, ki se vidi.', 'claim.smile': 'Merjenje, ki se splača.',
+  'claim.zidcode': 'Vsaka števka na svojem mestu.',
+  'prod.titanium': '»titanium«', 'role.titanium': 'HPC krčno držalo z zaščito pred izvlekom',
+
+  'spec.drawers': 'vertikalnih izvlekov', 'spec.load': 'nosilnost na vertikalni izvlek', 'spec.heat': 'čas segrevanja', 'spec.cool': 'čas hlajenja',
+  'spec.len': 'najv. dolžina orodja', 'spec.dia': 'najv. premer orodja', 'spec.shank': 'premer stebla do', 'spec.balance': 'kakovost uravnoteženja',
+  'spec.acc': 'natančnost dolžine', 'spec.cycle': 'krčenje, hlajenje in merjenje', 'spec.energy': 'manj energije (do)',
+  'spec.setup': 'časa nastavljanja pri uporabniku', 'spec.life': 'obstojnost orodja pri uporabniku', 'spec.entry': 'časa pri vnosu podatkov', 'spec.typos': 'tipkarskih napak',
+
+  'dev.photo': 'Fotografija', 'dev.film': 'Video', 'dev.hint': 'Vrtite z enim prstom, povečajte z dvema', 'dev.source': 'Vir',
+  'dev.watch': 'Oglejte si video', 'dev.save': 'Shrani', 'dev.saved': 'Shranjeno', 'dev.saved.toast': 'Shranjeno – na koncu seznam prenesite na telefon.',
+  'dev.ar': 'Ogled v AR', 'dev.ar.fail': 'AR na tej napravi ni na voljo.', 'dev.mobile': 'Na moj telefon',
+  'dev.prev': 'Prejšnja naprava', 'dev.next': 'Naslednja naprava',
+
+  'films.kicker': 'Videi ZOLLER', 'films.h': 'Videi', 'films.p': 'Vsak video prikazuje napravo pri delu – z zvokom in podnapisi v vašem jeziku.',
+  'films.seen': 'Ogledano', 'films.subs': 'Podnapisi',
+  'film.before-after': 'Isto jutro', 'film.venturion': 'En mikrometer.', 'film.keeper': 'Vse na svojem mestu.', 'film.powershrink400': 'Toplota, natančno.',
+  'film.redomatic600': 'Štiri vretena. Ena dolžina.', 'film.zidcode': 'Vsaka števka na svojem mestu.', 'film.titanium': 'Drži, kar vpne.',
+  'film.smile': 'Keep it green.', 'film.toolorganizer': 'Drobni deli, takoj pri roki.', 'film.toolstation': 'Montaža s sistemom.',
+  'player.again': 'Predvajaj znova', 'player.more': 'Več o {name}', 'player.next': 'Naprej: {title}',
+
+  'calc.kicker': 'Kalkulator prihranka', 'calc.h': 'Kaj prednastavljena orodja prinesejo vašemu podjetju?',
+  'calc.p': 'Dovolj so trije podatki. Številke so iz kalkulatorja gospodarnosti ZOLLER.',
+  'calc.machines': 'CNC-stroji', 'calc.shifts': 'Izmene na dan', 'calc.days': 'Delovni dnevi na leto',
+  'calc.rate': 'Urna postavka stroja', 'calc.rate.s': 'Koliko stane ena ura vretena',
+  'calc.save': 'Prihranek na leto, najmanj', 'calc.hours': 'ur zastoja vretena na leto zaradi orodij, ki pridejo neprednastavljena ali slabo prednastavljena',
+  'calc.cost': 'stane ta zastoj pri {rate} na uro', 'calc.note': 'Okvirne vrednosti pri 8 urah na izmeno. Natančne številke izračuna načrtovalnik orodjarne.',
+  'calc.planer': 'Podrobno načrtujte', 'calc.keep': 'Rezultat na telefon',
+
+  'planer.h': 'Načrtovalnik orodjarne', 'planer.taken': 'Vaš načrt je na seznamu.',
+
+  'qr.h': 'Vaša sejemska mapa na telefonu', 'qr.p': 'Skenirajte kodo s kamero: shranjene naprave, videi, podatki in kontaktni obrazec – na vašem telefonu.',
+  'qr.note': 'Brez aplikacije, brez registracije. Vaši podatki ostanejo pri vas, dokler nam ne pišete.',
+  'qr.link.h': 'Odpri na telefonu', 'qr.link.p': 'Ta stran se odpre na vašem telefonu – samo skenirajte kodo.',
+
+  'contact.kicker': 'Kontakt', 'contact.h': 'Ostanimo v stiku', 'contact.p': 'Izbor prenesite na telefon ali nam pustite svoje podatke – oglasili se bomo.',
+  'contact.saved': 'Vaš seznam', 'contact.empty': 'Nič še ni shranjeno. Pri napravi tapnite »Shrani«.',
+  'contact.calc': 'Kalkulator prihranka: najmanj {v} na leto', 'contact.plan': 'Vaš načrt orodjarne',
+  'form.h': 'Pustite nam podatke', 'form.p': 'Oglasili se bomo s ponudbo, terminom ali gradivom – kakor želite.',
+  'form.first': 'Ime', 'form.last': 'Priimek', 'form.company': 'Podjetje', 'form.email': 'E-pošta', 'form.phone': 'Telefon',
+  'form.country': 'Država', 'form.country.pick': 'Izberite', 'form.country.other': 'Druga država',
+  'form.wants': 'Zanima me', 'form.msg': 'Sporočilo (neobvezno)',
+  'form.consent': 'Strinjam se, da {company} shrani moje podatke, da me lahko kontaktira. Privolitev lahko kadar koli prekličem.',
+  'form.required': '* Obvezno polje. Navedite e-pošto ali telefon.', 'form.send': 'Pošlji',
+  'form.err': 'Izpolnite označena polja in potrdite privolitev.', 'form.err.reach': 'Navedite e-poštni naslov ali telefonsko številko.',
+  'want.offer': 'ponudba', 'want.demo': 'predstavitev', 'want.call': 'povratni klic', 'want.docs': 'gradivo po e-pošti', 'want.visit': 'obisk pri nas',
+
+  'thanks.h': 'Hvala, {name}!', 'thanks.p': 'Vaše povpraševanje smo prejeli. Oglasili se bomo.',
+  'thanks.mobile': 'Sejemska mapa na telefon', 'thanks.done': 'Končano', 'thanks.auto': 'Ponovni zagon čez {n} s',
+
+  'lang.h': 'Izberite jezik',
+  'end.h': 'Končati obisk?', 'end.p': 'Aplikacija se znova zažene za naslednjega obiskovalca.',
+  'end.p.saved': 'Vaš seznam bo izbrisan. Najprej ga prenesite na telefon.',
+  'end.qr': 'Seznam na telefon', 'end.yes': 'Končaj', 'end.no': 'Prekliči',
+
+  'm.title': 'Vaša sejemska mapa ZOLLER', 'm.hello': 'Hvala za obisk.', 'm.visit': 'Obiščite nas: {where}',
+  'm.devices': 'Vaše naprave', 'm.facts': 'Dejstva in viri', 'm.films': 'Videi', 'm.calc': 'Vaš izračun prihranka', 'm.plan': 'Vaša orodjarna', 'm.plan.open': 'Odpri načrt',
+  'm.planer': 'Odpri načrtovalnik orodjarne', 'm.product': 'Stran izdelka', 'm.showroom': 'Razstavni prostor 3D', 'm.more': 'Vse naprave',
+  'm.calc.line': '{machines} CNC-strojev · {shifts} izmene · {days} delovnih dni · {rate}/h',
+  'm.contact': 'Pišite nam', 'm.contact.p': 'Pišite nam – oglasili se bomo s ponudbo, terminom ali gradivom.',
+  'm.send': 'Pošlji povpraševanje', 'm.sent': 'Hvala! Vaše povpraševanje je prispelo.', 'm.mail': 'Odpre se vaša e-poštna aplikacija s pripravljenim povpraševanjem – samo pošljite ga.',
+  'm.fail': 'Pošiljanje ni uspelo – odpiramo vašo e-poštno aplikacijo.',
+  'm.share': 'Deli', 'm.save': 'Ta stran ostane dostopna: shranite jo med zaznamke ali jo delite.',
+  'm.country': 'Vaša država', 'm.privacy': 'Varstvo podatkov', 'm.imprint': 'Pravna obvestila', 'm.company': 'Vaš kontakt',
+  'm.subject': 'Povpraševanje s sejma', 'm.body.intro': 'Pozdravljeni,', 'm.body.interest': 'Zanima me', 'm.body.wants': 'Želim',
+  'm.body.event': 'Sejem', 'm.body.calc': 'Kalkulator prihranka', 'm.body.plan': 'Moj načrt orodjarne', 'm.body.bye': 'Lep pozdrav',
+};

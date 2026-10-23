@@ -1,0 +1,83 @@
+// English – ZOLLER trade show app (product names are never translated, always in »…«)
+export default {
+  'ui.back': 'Back', 'ui.saved': 'Saved', 'ui.end': 'Finish',
+  'idle.h': 'Are you still there?', 'idle.p': 'The app will restart in a moment and clear your selection.', 'idle.stay': 'Yes, continue', 'idle.end': 'Restart',
+  'live.short': '{name} live at the booth', 'live.tag': 'Live at the booth', 'live.p': 'This device is right here at the booth – just ask us for a demo.',
+  'tag.film': 'Film', 'tag.saved': 'Saved',
+
+  'home.h1': 'Welcome to ZOLLER.',
+  'home.lead': 'The complete tool cycle from one source – from storage into the machine. Tap a device.',
+  'home.films': 'Watch films', 'home.films.s': '{n} films, with subtitles',
+  'home.calc': 'Calculate savings', 'home.calc.s': 'What preset tools are worth',
+  'home.planer': 'Plan your toolroom', 'home.planer.s': 'Your production in 3D, with the gain',
+  'home.contact': 'Contact & documents', 'home.contact.s': 'Take it to your phone or leave your details',
+
+  'claim.keeper': 'Everything in its place.', 'claim.toolorganizer': 'Small parts, found at once.', 'claim.toolstation': 'Assembly with a system.',
+  'claim.powershrink400': 'Heat, precisely.', 'claim.titanium': 'Holds what it clamps.', 'claim.toolbalancer': 'Calm in the spindle.',
+  'claim.redomatic600': 'Length you can trust.', 'claim.venturion': 'Precision you can see.', 'claim.smile': 'Measuring that pays off.',
+  'claim.zidcode': 'Every digit in its place.',
+  'prod.titanium': '»titanium«', 'role.titanium': 'HPC shrink-fit chuck with pull-out protection',
+
+  'spec.drawers': 'vertical pull-outs', 'spec.load': 'load per vertical pull-out', 'spec.heat': 'heating time', 'spec.cool': 'cooling time',
+  'spec.len': 'max. tool length', 'spec.dia': 'max. tool diameter', 'spec.shank': 'shank diameter up to', 'spec.balance': 'balancing quality',
+  'spec.acc': 'length accuracy', 'spec.cycle': 'shrink, cool and measure', 'spec.energy': 'less energy (up to)',
+  'spec.setup': 'set-up time at a user', 'spec.life': 'tool life at a user', 'spec.entry': 'time for data entry', 'spec.typos': 'typing errors',
+
+  'dev.photo': 'Photo', 'dev.film': 'Film', 'dev.hint': 'Rotate with one finger, zoom with two', 'dev.source': 'Source',
+  'dev.watch': 'Watch the film', 'dev.save': 'Save', 'dev.saved': 'Saved', 'dev.saved.toast': 'Saved – take your list to your phone at the end.',
+  'dev.ar': 'View in AR', 'dev.ar.fail': 'AR is not available on this device.', 'dev.mobile': 'To my phone',
+  'dev.prev': 'Previous device', 'dev.next': 'Next device',
+
+  'films.kicker': 'ZOLLER films', 'films.h': 'Films', 'films.p': 'Each film shows a device in action – with sound and subtitles in your language.',
+  'films.seen': 'Watched', 'films.subs': 'Subtitles',
+  'film.before-after': 'The same morning', 'film.venturion': 'One micron.', 'film.keeper': 'Everything in its place.', 'film.powershrink400': 'Heat, precisely.',
+  'film.redomatic600': 'Four spindles. One length.', 'film.zidcode': 'Every digit in its place.', 'film.titanium': 'Holds what it clamps.',
+  'film.smile': 'Keep it green.', 'film.toolorganizer': 'Small parts, found at once.', 'film.toolstation': 'Assembly with a system.',
+  'player.again': 'Watch again', 'player.more': 'More about {name}', 'player.next': 'Next: {title}',
+
+  'calc.kicker': 'Savings calculator', 'calc.h': 'What are preset tools worth to your shop?',
+  'calc.p': 'Three inputs are enough. The figures come from the ZOLLER ROI calculator.',
+  'calc.machines': 'CNC machines', 'calc.shifts': 'Shifts per day', 'calc.days': 'Working days per year',
+  'calc.rate': 'Machine hourly rate', 'calc.rate.s': 'What one hour of spindle time costs',
+  'calc.save': 'Savings per year, at least', 'calc.hours': 'hours of spindle downtime per year caused by tools that arrive unpreset or poorly preset',
+  'calc.cost': 'is what this downtime costs at {rate} per hour', 'calc.note': 'Guide values at 8 hours per shift. The Toolroom Planner works out your exact figures.',
+  'calc.planer': 'Plan in detail', 'calc.keep': 'Result to my phone',
+
+  'planer.h': 'Toolroom Planner', 'planer.taken': 'Your plan is on your list.',
+
+  'qr.h': 'Your show folder on your phone', 'qr.p': 'Scan the code with your camera: your saved devices, films, data and a contact form – on your phone.',
+  'qr.note': 'No app, no sign-up. Your data stays with you until you write to us.',
+  'qr.link.h': 'Open on your phone', 'qr.link.p': 'This page opens on your phone – just scan the code.',
+
+  'contact.kicker': 'Contact', 'contact.h': 'Let’s stay in touch', 'contact.p': 'Take your selection to your phone or leave your details – we will get back to you.',
+  'contact.saved': 'Your list', 'contact.empty': 'Nothing saved yet. Tap “Save” on a device.',
+  'contact.calc': 'Savings calculator: at least {v} per year', 'contact.plan': 'Your toolroom plan',
+  'form.h': 'Leave your details', 'form.p': 'We will get back to you with a quote, an appointment or documents – whatever you prefer.',
+  'form.first': 'First name', 'form.last': 'Last name', 'form.company': 'Company', 'form.email': 'E-mail', 'form.phone': 'Phone',
+  'form.country': 'Country', 'form.country.pick': 'Please select', 'form.country.other': 'Other country',
+  'form.wants': 'I am interested in', 'form.msg': 'Message (optional)',
+  'form.consent': 'I agree that {company} stores my details in order to contact me. I can withdraw my consent at any time.',
+  'form.required': '* Required. Please enter an e-mail or a phone number.', 'form.send': 'Send',
+  'form.err': 'Please fill in the marked fields and confirm your consent.', 'form.err.reach': 'Please enter an e-mail address or a phone number.',
+  'want.offer': 'a quote', 'want.demo': 'a demo', 'want.call': 'a call back', 'want.docs': 'documents by e-mail', 'want.visit': 'an on-site visit',
+
+  'thanks.h': 'Thank you, {name}!', 'thanks.p': 'We have received your request and will get back to you.',
+  'thanks.mobile': 'Show folder to my phone', 'thanks.done': 'Done', 'thanks.auto': 'Restarting in {n} s',
+
+  'lang.h': 'Choose a language',
+  'end.h': 'Finish your visit?', 'end.p': 'The app restarts for the next visitor.',
+  'end.p.saved': 'Your list will be cleared. Take it to your phone first.',
+  'end.qr': 'List to my phone', 'end.yes': 'Finish', 'end.no': 'Cancel',
+
+  'm.title': 'Your ZOLLER show folder', 'm.hello': 'Thank you for visiting us.', 'm.visit': 'Visit us: {where}',
+  'm.devices': 'Your devices', 'm.facts': 'Facts and sources', 'm.films': 'Films', 'm.calc': 'Your savings calculation', 'm.plan': 'Your toolroom', 'm.plan.open': 'Open the plan',
+  'm.planer': 'Open the Toolroom Planner', 'm.product': 'Product page', 'm.showroom': '3D showroom', 'm.more': 'All devices',
+  'm.calc.line': '{machines} CNC machines · {shifts} shifts · {days} working days · {rate}/h',
+  'm.contact': 'Get in touch', 'm.contact.p': 'Write to us – we will get back to you with a quote, an appointment or documents.',
+  'm.send': 'Send request', 'm.sent': 'Thank you! Your request has arrived.', 'm.mail': 'Your e-mail app opens with the request ready – just tap send.',
+  'm.fail': 'Sending did not work – we are opening your e-mail app.',
+  'm.share': 'Share', 'm.save': 'This page stays available: bookmark it or share it.',
+  'm.country': 'Your country', 'm.privacy': 'Privacy', 'm.imprint': 'Legal notice', 'm.company': 'Your contact',
+  'm.subject': 'Trade show request', 'm.body.intro': 'Hello,', 'm.body.interest': 'I am interested in', 'm.body.wants': 'I would like',
+  'm.body.event': 'Trade show', 'm.body.calc': 'Savings calculator', 'm.body.plan': 'My toolroom plan', 'm.body.bye': 'Best regards',
+};

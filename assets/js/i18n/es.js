@@ -1,0 +1,83 @@
+// Español – app de feria ZOLLER (los nombres de producto nunca se traducen, siempre entre »…«)
+export default {
+  'ui.back': 'Atrás', 'ui.saved': 'Mi lista', 'ui.end': 'Terminar',
+  'idle.h': '¿Sigue ahí?', 'idle.p': 'La app se reiniciará enseguida y borrará su selección.', 'idle.stay': 'Sí, continuar', 'idle.end': 'Reiniciar',
+  'live.short': '{name} en vivo en el stand', 'live.tag': 'En el stand', 'live.p': 'Este equipo está aquí en nuestro stand: pídanos una demostración.',
+  'tag.film': 'Vídeo', 'tag.saved': 'Guardado',
+
+  'home.h1': 'Bienvenido a ZOLLER.',
+  'home.lead': 'Todo el ciclo de la herramienta de un solo proveedor: del almacén a la máquina. Toque un equipo.',
+  'home.films': 'Ver vídeos', 'home.films.s': '{n} vídeos, con subtítulos',
+  'home.calc': 'Calcular el ahorro', 'home.calc.s': 'Lo que aportan las herramientas preajustadas',
+  'home.planer': 'Planificar la sala de herramientas', 'home.planer.s': 'Su producción en 3D, con la ganancia',
+  'home.contact': 'Contacto y documentación', 'home.contact.s': 'En su móvil o aquí mismo',
+
+  'claim.keeper': 'Todo en su lugar.', 'claim.toolorganizer': 'Piezas pequeñas, encontradas al momento.', 'claim.toolstation': 'Montaje con sistema.',
+  'claim.powershrink400': 'Calor, con precisión.', 'claim.titanium': 'Sujeta lo que amarra.', 'claim.toolbalancer': 'Calma en el husillo.',
+  'claim.redomatic600': 'Una longitud en la que confiar.', 'claim.venturion': 'Precisión a la vista.', 'claim.smile': 'Medir que sale a cuenta.',
+  'claim.zidcode': 'Cada dígito en su lugar.',
+  'prod.titanium': '»titanium«', 'role.titanium': 'Portaherramientas de contracción HPC con protección antiextracción',
+
+  'spec.drawers': 'extraíbles verticales', 'spec.load': 'carga por extraíble vertical', 'spec.heat': 'tiempo de calentamiento', 'spec.cool': 'tiempo de enfriamiento',
+  'spec.len': 'longitud máx. de herramienta', 'spec.dia': 'diámetro máx. de herramienta', 'spec.shank': 'diámetro de mango hasta', 'spec.balance': 'calidad de equilibrado',
+  'spec.acc': 'precisión de longitud', 'spec.cycle': 'contraer, enfriar y medir', 'spec.energy': 'menos energía (hasta)',
+  'spec.setup': 'tiempo de preparación en un cliente', 'spec.life': 'vida útil de herramienta en un cliente', 'spec.entry': 'tiempo en la entrada de datos', 'spec.typos': 'errores de tecleo',
+
+  'dev.photo': 'Foto', 'dev.film': 'Vídeo', 'dev.hint': 'Gire con un dedo, amplíe con dos', 'dev.source': 'Fuente',
+  'dev.watch': 'Ver el vídeo', 'dev.save': 'Guardar', 'dev.saved': 'Guardado', 'dev.saved.toast': 'Guardado: al final puede llevarse su lista en el móvil.',
+  'dev.ar': 'Ver en RA', 'dev.ar.fail': 'La realidad aumentada no está disponible en este dispositivo.', 'dev.mobile': 'A mi móvil',
+  'dev.prev': 'Equipo anterior', 'dev.next': 'Equipo siguiente',
+
+  'films.kicker': 'Vídeos ZOLLER', 'films.h': 'Vídeos', 'films.p': 'Cada vídeo muestra un equipo en acción, con sonido y subtítulos en su idioma.',
+  'films.seen': 'Visto', 'films.subs': 'Subtítulos',
+  'film.before-after': 'La misma mañana', 'film.venturion': 'Una micra.', 'film.keeper': 'Todo en su lugar.', 'film.powershrink400': 'Calor, con precisión.',
+  'film.redomatic600': 'Cuatro husillos. Una sola longitud.', 'film.zidcode': 'Cada dígito en su lugar.', 'film.titanium': 'Sujeta lo que amarra.',
+  'film.smile': 'Keep it green.', 'film.toolorganizer': 'Piezas pequeñas, encontradas al momento.', 'film.toolstation': 'Montaje con sistema.',
+  'player.again': 'Volver a ver', 'player.more': 'Más sobre {name}', 'player.next': 'Siguiente: {title}',
+
+  'calc.kicker': 'Calculadora de ahorro', 'calc.h': '¿Qué aportan las herramientas preajustadas a su empresa?',
+  'calc.p': 'Bastan tres datos. Las cifras proceden de la calculadora de rentabilidad de ZOLLER.',
+  'calc.machines': 'Máquinas CNC', 'calc.shifts': 'Turnos por día', 'calc.days': 'Días laborables al año',
+  'calc.rate': 'Tarifa horaria de máquina', 'calc.rate.s': 'Lo que cuesta una hora de husillo',
+  'calc.save': 'Ahorro anual, como mínimo', 'calc.hours': 'horas de husillo parado al año por herramientas que llegan sin preajustar o mal preajustadas',
+  'calc.cost': 'cuesta esta parada a {rate} por hora', 'calc.note': 'Valores orientativos con 8 horas por turno. El planificador calcula sus cifras exactas.',
+  'calc.planer': 'Planificar en detalle', 'calc.keep': 'Resultado a mi móvil',
+
+  'planer.h': 'Planificador de sala de herramientas', 'planer.taken': 'Su planificación está en su lista.',
+
+  'qr.h': 'Su carpeta de feria en el móvil', 'qr.p': 'Escanee el código con la cámara: sus equipos guardados, vídeos, datos y un formulario de contacto, en su móvil.',
+  'qr.note': 'Sin app y sin registro. Sus datos se quedan con usted hasta que nos escriba.',
+  'qr.link.h': 'Abrir en el móvil', 'qr.link.p': 'Esta página se abre en su móvil: solo tiene que escanear el código.',
+
+  'contact.kicker': 'Contacto', 'contact.h': 'Sigamos en contacto', 'contact.p': 'Llévese su selección en el móvil o déjenos sus datos: nos pondremos en contacto con usted.',
+  'contact.saved': 'Su lista', 'contact.empty': 'Aún no ha guardado nada. Toque «Guardar» en un equipo.',
+  'contact.calc': 'Calculadora de ahorro: al menos {v} al año', 'contact.plan': 'Su planificación de la sala de herramientas',
+  'form.h': 'Déjenos sus datos', 'form.p': 'Le enviaremos una oferta, una cita o documentación, como prefiera.',
+  'form.first': 'Nombre', 'form.last': 'Apellidos', 'form.company': 'Empresa', 'form.email': 'Correo electrónico', 'form.phone': 'Teléfono',
+  'form.country': 'País', 'form.country.pick': 'Seleccione', 'form.country.other': 'Otro país',
+  'form.wants': 'Me interesa', 'form.msg': 'Mensaje (opcional)',
+  'form.consent': 'Acepto que {company} guarde mis datos para ponerse en contacto conmigo. Puedo retirar mi consentimiento en cualquier momento.',
+  'form.required': '* Campo obligatorio. Indique un correo electrónico o un teléfono.', 'form.send': 'Enviar',
+  'form.err': 'Rellene los campos marcados y confirme su consentimiento.', 'form.err.reach': 'Indique un correo electrónico o un número de teléfono.',
+  'want.offer': 'una oferta', 'want.demo': 'una demostración', 'want.call': 'que me llamen', 'want.docs': 'documentación por correo', 'want.visit': 'una visita en planta',
+
+  'thanks.h': '¡Gracias, {name}!', 'thanks.p': 'Hemos recibido su solicitud. Nos pondremos en contacto con usted.',
+  'thanks.mobile': 'Carpeta de feria a mi móvil', 'thanks.done': 'Listo', 'thanks.auto': 'Reinicio en {n} s',
+
+  'lang.h': 'Elegir idioma',
+  'end.h': '¿Terminar su visita?', 'end.p': 'La app se reinicia para el siguiente visitante.',
+  'end.p.saved': 'Su lista se borrará. Llévesela antes en el móvil.',
+  'end.qr': 'Lista a mi móvil', 'end.yes': 'Terminar', 'end.no': 'Cancelar',
+
+  'm.title': 'Su carpeta de feria ZOLLER', 'm.hello': 'Gracias por su visita.', 'm.visit': 'Visítenos: {where}',
+  'm.devices': 'Sus equipos', 'm.facts': 'Datos y fuentes', 'm.films': 'Vídeos', 'm.calc': 'Su cálculo de ahorro', 'm.plan': 'Su sala de herramientas', 'm.plan.open': 'Abrir la planificación',
+  'm.planer': 'Abrir el planificador', 'm.product': 'Página del producto', 'm.showroom': 'Showroom 3D', 'm.more': 'Todos los equipos',
+  'm.calc.line': '{machines} máquinas CNC · {shifts} turnos · {days} días laborables · {rate}/h',
+  'm.contact': 'Contactar', 'm.contact.p': 'Escríbanos: le enviaremos una oferta, una cita o documentación.',
+  'm.send': 'Enviar solicitud', 'm.sent': '¡Gracias! Hemos recibido su solicitud.', 'm.mail': 'Se abre su app de correo con la solicitud lista: solo tiene que enviarla.',
+  'm.fail': 'No se pudo enviar: abrimos su app de correo.',
+  'm.share': 'Compartir', 'm.save': 'Esta página sigue disponible: guárdela en favoritos o compártala.',
+  'm.country': 'Su país', 'm.privacy': 'Protección de datos', 'm.imprint': 'Aviso legal', 'm.company': 'Su contacto',
+  'm.subject': 'Consulta de feria', 'm.body.intro': 'Buenos días:', 'm.body.interest': 'Me interesa', 'm.body.wants': 'Me gustaría',
+  'm.body.event': 'Feria', 'm.body.calc': 'Calculadora de ahorro', 'm.body.plan': 'Mi planificación de la sala de herramientas', 'm.body.bye': 'Saludos cordiales',
+};

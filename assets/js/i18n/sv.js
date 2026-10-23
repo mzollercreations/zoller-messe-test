@@ -1,0 +1,83 @@
+// Svenska – ZOLLER mässapp (produktnamn översätts aldrig, alltid inom »…«)
+export default {
+  'ui.back': 'Tillbaka', 'ui.saved': 'Min lista', 'ui.end': 'Avsluta',
+  'idle.h': 'Är du kvar?', 'idle.p': 'Appen startar snart om och raderar ditt urval.', 'idle.stay': 'Ja, fortsätt', 'idle.end': 'Starta om',
+  'live.short': '{name} live i montern', 'live.tag': 'I montern', 'live.p': 'Den här maskinen står här i vår monter – fråga oss om en demonstration.',
+  'tag.film': 'Film', 'tag.saved': 'Sparad',
+
+  'home.h1': 'Välkommen till ZOLLER.',
+  'home.lead': 'Hela verktygskretsloppet från en leverantör – från lagret in i maskinen. Tryck på en maskin.',
+  'home.films': 'Se filmer', 'home.films.s': '{n} filmer, med undertexter',
+  'home.calc': 'Beräkna besparingen', 'home.calc.s': 'Vad förinställda verktyg ger',
+  'home.planer': 'Planera verktygsrummet', 'home.planer.s': 'Din produktion i 3D, med vinsten',
+  'home.contact': 'Kontakt och material', 'home.contact.s': 'Till mobilen eller här',
+
+  'claim.keeper': 'Allt på sin plats.', 'claim.toolorganizer': 'Smådelar, hittade direkt.', 'claim.toolstation': 'Montering med system.',
+  'claim.powershrink400': 'Värme, med precision.', 'claim.titanium': 'Håller det den spänner.', 'claim.toolbalancer': 'Lugn i spindeln.',
+  'claim.redomatic600': 'Längd du kan lita på.', 'claim.venturion': 'Precision du kan se.', 'claim.smile': 'Mätning som lönar sig.',
+  'claim.zidcode': 'Varje siffra på sin plats.',
+  'prod.titanium': '»titanium«', 'role.titanium': 'HPC-krymphållare med utdragsskydd',
+
+  'spec.drawers': 'vertikala utdrag', 'spec.load': 'last per vertikalt utdrag', 'spec.heat': 'uppvärmningstid', 'spec.cool': 'kyltid',
+  'spec.len': 'max. verktygslängd', 'spec.dia': 'max. verktygsdiameter', 'spec.shank': 'skaftdiameter upp till', 'spec.balance': 'balanseringskvalitet',
+  'spec.acc': 'längdnoggrannhet', 'spec.cycle': 'krympa, kyla och mäta', 'spec.energy': 'mindre energi (upp till)',
+  'spec.setup': 'ställtid hos en användare', 'spec.life': 'verktygslivslängd hos en användare', 'spec.entry': 'tid vid datainmatning', 'spec.typos': 'skrivfel',
+
+  'dev.photo': 'Foto', 'dev.film': 'Film', 'dev.hint': 'Vrid med ett finger, zooma med två', 'dev.source': 'Källa',
+  'dev.watch': 'Se filmen', 'dev.save': 'Spara', 'dev.saved': 'Sparad', 'dev.saved.toast': 'Sparad – ta med listan till mobilen i slutet.',
+  'dev.ar': 'Visa i AR', 'dev.ar.fail': 'AR är inte tillgängligt på den här enheten.', 'dev.mobile': 'Till min mobil',
+  'dev.prev': 'Föregående maskin', 'dev.next': 'Nästa maskin',
+
+  'films.kicker': 'ZOLLER-filmer', 'films.h': 'Filmer', 'films.p': 'Varje film visar en maskin i arbete – med ljud och undertexter på ditt språk.',
+  'films.seen': 'Sedd', 'films.subs': 'Undertexter',
+  'film.before-after': 'Samma morgon', 'film.venturion': 'En mikrometer.', 'film.keeper': 'Allt på sin plats.', 'film.powershrink400': 'Värme, med precision.',
+  'film.redomatic600': 'Fyra spindlar. En längd.', 'film.zidcode': 'Varje siffra på sin plats.', 'film.titanium': 'Håller det den spänner.',
+  'film.smile': 'Keep it green.', 'film.toolorganizer': 'Smådelar, hittade direkt.', 'film.toolstation': 'Montering med system.',
+  'player.again': 'Se igen', 'player.more': 'Mer om {name}', 'player.next': 'Nästa: {title}',
+
+  'calc.kicker': 'Besparingskalkylator', 'calc.h': 'Vad är förinställda verktyg värda för ditt företag?',
+  'calc.p': 'Tre uppgifter räcker. Siffrorna kommer från ZOLLERs lönsamhetskalkylator.',
+  'calc.machines': 'CNC-maskiner', 'calc.shifts': 'Skift per dag', 'calc.days': 'Arbetsdagar per år',
+  'calc.rate': 'Maskintimkostnad', 'calc.rate.s': 'Vad en timmes spindeltid kostar',
+  'calc.save': 'Besparing per år, minst', 'calc.hours': 'timmar spindelstopp per år på grund av verktyg som kommer oinställda eller dåligt inställda',
+  'calc.cost': 'kostar detta stopp vid {rate} per timme', 'calc.note': 'Riktvärden vid 8 timmar per skift. Verktygsrumsplaneraren räknar ut dina exakta siffror.',
+  'calc.planer': 'Planera i detalj', 'calc.keep': 'Resultatet till mobilen',
+
+  'planer.h': 'Verktygsrumsplanerare', 'planer.taken': 'Din planering finns på din lista.',
+
+  'qr.h': 'Din mässmapp i mobilen', 'qr.p': 'Skanna koden med kameran: dina sparade maskiner, filmer, data och ett kontaktformulär – i din mobil.',
+  'qr.note': 'Ingen app, ingen registrering. Dina uppgifter stannar hos dig tills du skriver till oss.',
+  'qr.link.h': 'Öppna i mobilen', 'qr.link.p': 'Sidan öppnas i din mobil – skanna bara koden.',
+
+  'contact.kicker': 'Kontakt', 'contact.h': 'Vi håller kontakten', 'contact.p': 'Ta med ditt urval i mobilen eller lämna dina uppgifter – vi hör av oss.',
+  'contact.saved': 'Din lista', 'contact.empty': 'Inget sparat ännu. Tryck på ”Spara” vid en maskin.',
+  'contact.calc': 'Besparingskalkylator: minst {v} per år', 'contact.plan': 'Din planering av verktygsrummet',
+  'form.h': 'Lämna dina uppgifter', 'form.p': 'Vi hör av oss med en offert, ett möte eller material – precis som du vill.',
+  'form.first': 'Förnamn', 'form.last': 'Efternamn', 'form.company': 'Företag', 'form.email': 'E-post', 'form.phone': 'Telefon',
+  'form.country': 'Land', 'form.country.pick': 'Välj', 'form.country.other': 'Annat land',
+  'form.wants': 'Jag är intresserad av', 'form.msg': 'Meddelande (valfritt)',
+  'form.consent': 'Jag samtycker till att {company} sparar mina uppgifter för att kontakta mig. Jag kan när som helst återkalla mitt samtycke.',
+  'form.required': '* Obligatoriskt. Ange e-post eller telefonnummer.', 'form.send': 'Skicka',
+  'form.err': 'Fyll i de markerade fälten och bekräfta ditt samtycke.', 'form.err.reach': 'Ange en e-postadress eller ett telefonnummer.',
+  'want.offer': 'en offert', 'want.demo': 'en demonstration', 'want.call': 'att bli uppringd', 'want.docs': 'material via e-post', 'want.visit': 'ett besök på plats',
+
+  'thanks.h': 'Tack, {name}!', 'thanks.p': 'Vi har tagit emot din förfrågan och hör av oss.',
+  'thanks.mobile': 'Mässmappen till mobilen', 'thanks.done': 'Klar', 'thanks.auto': 'Omstart om {n} s',
+
+  'lang.h': 'Välj språk',
+  'end.h': 'Avsluta besöket?', 'end.p': 'Appen startar om för nästa besökare.',
+  'end.p.saved': 'Din lista raderas. Ta med den till mobilen först.',
+  'end.qr': 'Listan till mobilen', 'end.yes': 'Avsluta', 'end.no': 'Avbryt',
+
+  'm.title': 'Din ZOLLER-mässmapp', 'm.hello': 'Tack för ditt besök.', 'm.visit': 'Besök oss: {where}',
+  'm.devices': 'Dina maskiner', 'm.facts': 'Fakta och källor', 'm.films': 'Filmer', 'm.calc': 'Din besparingskalkyl', 'm.plan': 'Ditt verktygsrum', 'm.plan.open': 'Öppna planeringen',
+  'm.planer': 'Öppna verktygsrumsplaneraren', 'm.product': 'Produktsida', 'm.showroom': '3D-showroom', 'm.more': 'Alla maskiner',
+  'm.calc.line': '{machines} CNC-maskiner · {shifts} skift · {days} arbetsdagar · {rate}/h',
+  'm.contact': 'Kontakta oss', 'm.contact.p': 'Skriv till oss – vi hör av oss med en offert, ett möte eller material.',
+  'm.send': 'Skicka förfrågan', 'm.sent': 'Tack! Din förfrågan har kommit fram.', 'm.mail': 'Din e-postapp öppnas med förfrågan klar – tryck bara på skicka.',
+  'm.fail': 'Det gick inte att skicka – vi öppnar din e-postapp.',
+  'm.share': 'Dela', 'm.save': 'Sidan finns kvar: spara den som bokmärke eller dela den.',
+  'm.country': 'Ditt land', 'm.privacy': 'Dataskydd', 'm.imprint': 'Juridisk information', 'm.company': 'Din kontakt',
+  'm.subject': 'Förfrågan från mässan', 'm.body.intro': 'Hej,', 'm.body.interest': 'Jag är intresserad av', 'm.body.wants': 'Jag önskar',
+  'm.body.event': 'Mässa', 'm.body.calc': 'Besparingskalkylator', 'm.body.plan': 'Min planering av verktygsrummet', 'm.body.bye': 'Vänliga hälsningar',
+};
